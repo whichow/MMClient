@@ -1,0 +1,525 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1420580834823974}
+  m_IsPrefabParent: 1
+--- !u!1 &1420580834823974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4461365260982222}
+  - component: {fileID: 60018063114292784}
+  - component: {fileID: 114577708479596064}
+  m_Layer: 0
+  m_Name: Area_012
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4461365260982222
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420580834823974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.11, y: 14.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60018063114292784
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420580834823974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -3.3733335, y: -0.35433865}
+      - {x: -2.0252671, y: 0.05171871}
+      - {x: -1.182807, y: 0.42741108}
+      - {x: -0.81785583, y: 0.88797283}
+      - {x: -1.2567754, y: 1.2401514}
+      - {x: -0.023935318, y: 1.7462626}
+      - {x: 1.8222513, y: 1.6646662}
+      - {x: 3.0621443, y: 1.1546526}
+      - {x: 2.4386253, y: 0.5161638}
+      - {x: 2.5829182, y: -0.050682068}
+      - {x: 2.8973236, y: -0.43986988}
+      - {x: 2.595808, y: -0.55895233}
+      - {x: 1.9205875, y: -0.29018784}
+      - {x: -0.101615906, y: -1.0993519}
+      - {x: -2.575346, y: -0.7607956}
+--- !u!114 &114577708479596064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420580834823974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63b2c41884fc7747ac7c951f3bbf6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1512
+  gridRect:
+    x: 0
+    y: 0
+    z: 0
+    w: 0
+  addGrids:
+  - x: -50
+    y: 79
+  - x: -50
+    y: 80
+  - x: -50
+    y: 81
+  - x: -50
+    y: 82
+  - x: -49
+    y: 78
+  - x: -49
+    y: 79
+  - x: -49
+    y: 80
+  - x: -49
+    y: 81
+  - x: -49
+    y: 82
+  - x: -49
+    y: 83
+  - x: -48
+    y: 68
+  - x: -48
+    y: 69
+  - x: -48
+    y: 70
+  - x: -48
+    y: 77
+  - x: -48
+    y: 78
+  - x: -48
+    y: 79
+  - x: -48
+    y: 80
+  - x: -48
+    y: 81
+  - x: -48
+    y: 82
+  - x: -48
+    y: 83
+  - x: -48
+    y: 84
+  - x: -47
+    y: 68
+  - x: -47
+    y: 69
+  - x: -47
+    y: 70
+  - x: -47
+    y: 71
+  - x: -47
+    y: 72
+  - x: -47
+    y: 73
+  - x: -47
+    y: 74
+  - x: -47
+    y: 75
+  - x: -47
+    y: 76
+  - x: -47
+    y: 77
+  - x: -47
+    y: 78
+  - x: -47
+    y: 79
+  - x: -47
+    y: 80
+  - x: -47
+    y: 81
+  - x: -47
+    y: 82
+  - x: -47
+    y: 83
+  - x: -47
+    y: 84
+  - x: -47
+    y: 85
+  - x: -46
+    y: 68
+  - x: -46
+    y: 69
+  - x: -46
+    y: 70
+  - x: -46
+    y: 71
+  - x: -46
+    y: 72
+  - x: -46
+    y: 73
+  - x: -46
+    y: 74
+  - x: -46
+    y: 75
+  - x: -46
+    y: 76
+  - x: -46
+    y: 77
+  - x: -46
+    y: 78
+  - x: -46
+    y: 79
+  - x: -46
+    y: 80
+  - x: -46
+    y: 81
+  - x: -46
+    y: 82
+  - x: -46
+    y: 83
+  - x: -46
+    y: 84
+  - x: -46
+    y: 85
+  - x: -46
+    y: 86
+  - x: -45
+    y: 68
+  - x: -45
+    y: 69
+  - x: -45
+    y: 70
+  - x: -45
+    y: 71
+  - x: -45
+    y: 72
+  - x: -45
+    y: 73
+  - x: -45
+    y: 74
+  - x: -45
+    y: 75
+  - x: -45
+    y: 76
+  - x: -45
+    y: 77
+  - x: -45
+    y: 78
+  - x: -45
+    y: 79
+  - x: -45
+    y: 80
+  - x: -45
+    y: 81
+  - x: -45
+    y: 82
+  - x: -45
+    y: 83
+  - x: -45
+    y: 84
+  - x: -45
+    y: 85
+  - x: -45
+    y: 86
+  - x: -44
+    y: 69
+  - x: -44
+    y: 70
+  - x: -44
+    y: 71
+  - x: -44
+    y: 72
+  - x: -44
+    y: 73
+  - x: -44
+    y: 74
+  - x: -44
+    y: 75
+  - x: -44
+    y: 76
+  - x: -44
+    y: 77
+  - x: -44
+    y: 78
+  - x: -44
+    y: 79
+  - x: -44
+    y: 80
+  - x: -44
+    y: 81
+  - x: -44
+    y: 82
+  - x: -44
+    y: 83
+  - x: -44
+    y: 84
+  - x: -44
+    y: 85
+  - x: -44
+    y: 86
+  - x: -43
+    y: 69
+  - x: -43
+    y: 70
+  - x: -43
+    y: 71
+  - x: -43
+    y: 72
+  - x: -43
+    y: 73
+  - x: -43
+    y: 74
+  - x: -43
+    y: 75
+  - x: -43
+    y: 76
+  - x: -43
+    y: 77
+  - x: -43
+    y: 78
+  - x: -43
+    y: 79
+  - x: -43
+    y: 80
+  - x: -43
+    y: 81
+  - x: -43
+    y: 82
+  - x: -43
+    y: 83
+  - x: -43
+    y: 84
+  - x: -43
+    y: 85
+  - x: -43
+    y: 86
+  - x: -42
+    y: 70
+  - x: -42
+    y: 71
+  - x: -42
+    y: 72
+  - x: -42
+    y: 73
+  - x: -42
+    y: 74
+  - x: -42
+    y: 75
+  - x: -42
+    y: 76
+  - x: -42
+    y: 77
+  - x: -42
+    y: 78
+  - x: -42
+    y: 79
+  - x: -42
+    y: 80
+  - x: -42
+    y: 81
+  - x: -42
+    y: 82
+  - x: -42
+    y: 83
+  - x: -42
+    y: 84
+  - x: -42
+    y: 85
+  - x: -42
+    y: 86
+  - x: -41
+    y: 71
+  - x: -41
+    y: 72
+  - x: -41
+    y: 73
+  - x: -41
+    y: 74
+  - x: -41
+    y: 75
+  - x: -41
+    y: 76
+  - x: -41
+    y: 77
+  - x: -41
+    y: 78
+  - x: -41
+    y: 79
+  - x: -41
+    y: 80
+  - x: -41
+    y: 81
+  - x: -41
+    y: 82
+  - x: -41
+    y: 83
+  - x: -41
+    y: 84
+  - x: -40
+    y: 71
+  - x: -40
+    y: 72
+  - x: -40
+    y: 73
+  - x: -40
+    y: 74
+  - x: -40
+    y: 75
+  - x: -40
+    y: 76
+  - x: -40
+    y: 77
+  - x: -40
+    y: 78
+  - x: -40
+    y: 79
+  - x: -40
+    y: 80
+  - x: -40
+    y: 81
+  - x: -40
+    y: 82
+  - x: -39
+    y: 73
+  - x: -39
+    y: 74
+  - x: -39
+    y: 75
+  - x: -39
+    y: 76
+  - x: -39
+    y: 77
+  - x: -39
+    y: 78
+  - x: -39
+    y: 79
+  - x: -39
+    y: 80
+  - x: -39
+    y: 81
+  - x: -38
+    y: 79
+  - x: -38
+    y: 80
+  - x: -37
+    y: 79
+  - x: -37
+    y: 80
+  - x: -36
+    y: 79
+  - x: -51
+    y: 79
+  - x: -50
+    y: 78
+  - x: -51
+    y: 78
+  - x: -51
+    y: 80
+  - x: -51
+    y: 81
+  - x: -51
+    y: 82
+  - x: -49
+    y: 77
+  - x: -50
+    y: 77
+  - x: -50
+    y: 83
+  - x: -49
+    y: 68
+  - x: -48
+    y: 67
+  - x: -49
+    y: 67
+  - x: -49
+    y: 69
+  - x: -49
+    y: 70
+  - x: -48
+    y: 76
+  - x: -49
+    y: 76
+  - x: -49
+    y: 84
+  - x: -47
+    y: 67
+  - x: -48
+    y: 71
+  - x: -48
+    y: 72
+  - x: -48
+    y: 73
+  - x: -48
+    y: 74
+  - x: -48
+    y: 75
+  - x: -48
+    y: 85
+  - x: -46
+    y: 67
+  - x: -47
+    y: 86
+  - x: -45
+    y: 67
+  - x: -44
+    y: 68
+  - x: -43
+    y: 68
+  - x: -42
+    y: 69
+  - x: -41
+    y: 70
+  - x: -40
+    y: 70
+  - x: -39
+    y: 72
+  - x: -38
+    y: 78
+  - x: -37
+    y: 78
+  - x: -36
+    y: 78
+  delGrids: []
+  geography: 1
+  groupMask: 1
+  unlockGrade: 0
+  unlockStar: 0
+  unlockMoneyCost: 1000
+  unlockMoneyType: 0
+  quickUnlockMoneyCost: 0
+  quickUnlockMoneyType: 0
+  maxObstacleCount: 0
+  neighbors: 0a0000000b000000
+  requirements: 
+  gizmosColor: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}

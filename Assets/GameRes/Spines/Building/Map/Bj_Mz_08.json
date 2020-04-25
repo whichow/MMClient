@@ -1,0 +1,268 @@
+{
+"skeleton": { "hash": "dKqFXsINhlaNqZO2iZFdcOfojCg", "spine": "2.1.27", "width": 370, "height": 343.94, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "mzshui_00", "parent": "root", "x": 207.93, "y": 131.41, "scaleX": 2, "scaleY": 2 },
+	{ "name": "mzshuil_00", "parent": "root", "length": 23.64, "x": 119.86, "y": 1.84, "rotation": -45.91 },
+	{ "name": "shuic", "parent": "root", "x": 218.61, "y": 80.1 }
+],
+"slots": [
+	{ "name": "shuic", "bone": "shuic", "attachment": "shuic" },
+	{ "name": "mzshui_00", "bone": "mzshui_00", "attachment": "mzshui_09" },
+	{ "name": "mzshuil_00", "bone": "mzshuil_00", "attachment": "mzshuil_09" },
+	{ "name": "ye5", "bone": "shuic", "attachment": "ye5" },
+	{ "name": "ye4", "bone": "shuic", "attachment": "ye4" },
+	{ "name": "ye3", "bone": "shuic", "attachment": "ye3" },
+	{ "name": "ye2", "bone": "shuic", "attachment": "ye2" },
+	{ "name": "ye1", "bone": "shuic", "attachment": "ye1" }
+],
+"skins": {
+	"default": {
+		"mzshui_00": {
+			"mzshui_00": { "width": 165, "height": 80 },
+			"mzshui_01": { "width": 165, "height": 80 },
+			"mzshui_02": { "width": 165, "height": 80 },
+			"mzshui_03": { "width": 165, "height": 80 },
+			"mzshui_04": { "width": 165, "height": 80 },
+			"mzshui_05": { "width": 165, "height": 80 },
+			"mzshui_06": { "width": 165, "height": 80 },
+			"mzshui_07": { "width": 165, "height": 80 },
+			"mzshui_08": { "width": 165, "height": 80 },
+			"mzshui_09": { "width": 165, "height": 80 },
+			"mzshui_10": { "width": 165, "height": 80 },
+			"mzshui_11": { "width": 165, "height": 80 },
+			"mzshui_12": { "width": 165, "height": 80 },
+			"mzshui_13": { "width": 165, "height": 80 },
+			"mzshui_14": { "width": 165, "height": 80 }
+		},
+		"mzshuil_00": {
+			"mzshuil_00": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_01": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_02": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_03": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_04": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_05": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_06": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_07": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_08": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_09": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_10": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_11": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_12": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_13": { "rotation": 45.91, "width": 150, "height": 256 },
+			"mzshuil_14": { "rotation": 45.91, "width": 150, "height": 256 }
+		},
+		"shuic": {
+			"shuic": { "x": -8.96, "y": 53.19, "width": 370, "height": 169 }
+		},
+		"ye1": {
+			"ye1": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -9.96, 65.69, -35.96, 65.69, -35.96, 87.69, -9.96, 87.69 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 26,
+				"height": 22
+			}
+		},
+		"ye2": {
+			"ye2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 131.03, 58.69, 114.03, 58.69, 114.03, 71.69, 131.03, 71.69 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 17,
+				"height": 13
+			}
+		},
+		"ye3": {
+			"ye3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 75.03, 9.68999, 59.03, 9.68999, 59.03, 22.69, 75.03, 22.69 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 16,
+				"height": 13
+			}
+		},
+		"ye4": {
+			"ye4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 97.03, 19.69, 66.03, 19.69, 66.03, 41.68999, 97.03, 41.68999 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 31,
+				"height": 22
+			}
+		},
+		"ye5": {
+			"ye5": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 117.03, 61.69, 87.03, 61.69, 87.03, 83.69, 117.03, 83.69 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 30,
+				"height": 22
+			}
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"mzshui_00": {
+				"attachment": [
+					{ "time": 0, "name": "mzshui_00" },
+					{ "time": 0.1, "name": "mzshui_01" },
+					{ "time": 0.1666, "name": "mzshui_02" },
+					{ "time": 0.2666, "name": "mzshui_03" },
+					{ "time": 0.3666, "name": "mzshui_04" },
+					{ "time": 0.4333, "name": "mzshui_05" },
+					{ "time": 0.5333, "name": "mzshui_06" },
+					{ "time": 0.6333, "name": "mzshui_07" },
+					{ "time": 0.7, "name": "mzshui_08" },
+					{ "time": 0.8, "name": "mzshui_09" },
+					{ "time": 0.8666, "name": "mzshui_10" },
+					{ "time": 0.9666, "name": "mzshui_11" },
+					{ "time": 1.0666, "name": "mzshui_12" },
+					{ "time": 1.1333, "name": "mzshui_13" },
+					{ "time": 1.2333, "name": "mzshui_14" },
+					{ "time": 1.3333, "name": "mzshui_00" }
+				]
+			},
+			"mzshuil_00": {
+				"attachment": [
+					{ "time": 0, "name": "mzshuil_00" },
+					{ "time": 0.1, "name": "mzshuil_01" },
+					{ "time": 0.1666, "name": "mzshuil_02" },
+					{ "time": 0.2666, "name": "mzshuil_03" },
+					{ "time": 0.3666, "name": "mzshuil_04" },
+					{ "time": 0.4333, "name": "mzshuil_05" },
+					{ "time": 0.5333, "name": "mzshuil_06" },
+					{ "time": 0.6333, "name": "mzshuil_07" },
+					{ "time": 0.7, "name": "mzshuil_08" },
+					{ "time": 0.8, "name": "mzshuil_09" },
+					{ "time": 0.8666, "name": "mzshuil_10" },
+					{ "time": 0.9666, "name": "mzshuil_11" },
+					{ "time": 1.0666, "name": "mzshuil_12" },
+					{ "time": 1.1333, "name": "mzshuil_13" },
+					{ "time": 1.2333, "name": "mzshuil_14" },
+					{ "time": 1.3333, "name": "mzshuil_00" }
+				]
+			},
+			"shuic": {
+				"attachment": [
+					{ "time": 0, "name": "shuic" },
+					{ "time": 1.3333, "name": "shuic" }
+				]
+			},
+			"ye1": {
+				"attachment": [
+					{ "time": 0, "name": "ye1" },
+					{ "time": 1.3333, "name": "ye1" }
+				]
+			},
+			"ye2": {
+				"attachment": [
+					{ "time": 0, "name": "ye2" },
+					{ "time": 1.3333, "name": "ye2" }
+				]
+			},
+			"ye3": {
+				"attachment": [
+					{ "time": 0, "name": "ye3" },
+					{ "time": 1.3333, "name": "ye3" }
+				]
+			},
+			"ye4": {
+				"attachment": [
+					{ "time": 0, "name": "ye4" },
+					{ "time": 1.3333, "name": "ye4" }
+				]
+			},
+			"ye5": {
+				"attachment": [
+					{ "time": 0, "name": "ye5" },
+					{ "time": 1.3333, "name": "ye5" }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"ye1": {
+					"ye1": [
+						{ "time": 0 },
+						{
+							"time": 0.6333,
+							"vertices": [ -2.25599, 0, -4.22999, 0.56401, 0.84599, -0.56399, 1.97399, -2.53797 ]
+						},
+						{ "time": 1.3333 }
+					]
+				},
+				"ye2": {
+					"ye2": [
+						{ "time": 0 },
+						{
+							"time": 0.4,
+							"vertices": [ -2.3287, 1.34145, -2.44777, 0.74606, -3.8767, 0.50791, -3.75761, 0.62698 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -0.07299, 6.77398, -0.33099, 5.48397, -3.427, 4.96798, -3.16897, 5.22596 ]
+						},
+						{ "time": 1.3333 }
+					]
+				},
+				"ye3": {
+					"ye3": [
+						{ "time": 0 },
+						{
+							"time": 0.6333,
+							"vertices": [ -1.08798, 1.88201, -1.08798, 1.88201, -3.58499, 0.974, -3.58499, 0.974 ]
+						},
+						{ "time": 1.3333 }
+					]
+				},
+				"ye4": {
+					"ye4": [
+						{ "time": 0 },
+						{
+							"time": 0.3333,
+							"vertices": [ -0.36588, -1.30522, -0.32747, -1.63048, 1.86093, -2.75733, -0.63273, -2.04258 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -4.04104, -0.388, -3.96807, -1.006, 0.18991, -3.147, -4.54806, -1.78898 ]
+						},
+						{ "time": 1.3333 }
+					]
+				},
+				"ye5": {
+					"ye5": [
+						{ "time": 0 },
+						{
+							"time": 0.6333,
+							"vertices": [ -0.72998, 4.38, -0.36502, 3.285, -5.83999, 2.19, -11.67999, 4.01501 ]
+						},
+						{ "time": 1.3333 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.3333 }
+		]
+	}
+}
+}

@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "KMeU8Zv+ZwWpE8CV01Y6rNsB4no", "spine": "2.1.27", "width": 200.09, "height": 256.07, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "lizi_15", "parent": "root", "length": 158.62, "x": 3.21, "y": 93.95, "scaleX": 2, "scaleY": 2, "rotation": 90.45 }
+],
+"slots": [
+	{ "name": "lizi_15", "bone": "lizi_15", "attachment": "lizi_zi_29", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"lizi_15": {
+			"lizi_zi_15": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_16": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_17": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_18": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_19": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_20": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_21": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_22": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_23": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_24": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_25": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_26": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_27": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_28": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 },
+			"lizi_zi_29": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90.45, "width": 200, "height": 256 }
+		}
+	}
+},
+"animations": {
+	"lizi_zi": {
+		"slots": {
+			"lizi_15": {
+				"attachment": [
+					{ "time": 0, "name": "lizi_zi_15" },
+					{ "time": 0.0666, "name": "lizi_zi_16" },
+					{ "time": 0.1333, "name": "lizi_zi_17" },
+					{ "time": 0.2, "name": "lizi_zi_18" },
+					{ "time": 0.2666, "name": "lizi_zi_19" },
+					{ "time": 0.3333, "name": "lizi_zi_20" },
+					{ "time": 0.4, "name": "lizi_zi_21" },
+					{ "time": 0.4666, "name": "lizi_zi_22" },
+					{ "time": 0.5333, "name": "lizi_zi_23" },
+					{ "time": 0.6, "name": "lizi_zi_24" },
+					{ "time": 0.6666, "name": "lizi_zi_25" },
+					{ "time": 0.7333, "name": "lizi_zi_26" },
+					{ "time": 0.8, "name": "lizi_zi_27" },
+					{ "time": 0.8666, "name": "lizi_zi_28" },
+					{ "time": 0.9333, "name": "lizi_zi_29" },
+					{ "time": 1, "name": "lizi_zi_15" }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

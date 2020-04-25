@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1443180660006696}
+  m_IsPrefabParent: 1
+--- !u!1 &1443180660006696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4007583226218360}
+  - component: {fileID: 60004837573916356}
+  - component: {fileID: 114095936441382006}
+  m_Layer: 0
+  m_Name: Area_008
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4007583226218360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443180660006696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.82, y: -3.4, z: -0.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60004837573916356
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443180660006696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -3.6842537, y: -0.3599143}
+      - {x: -2.9518528, y: -0.044282675}
+      - {x: -2.8034897, y: 0.085267544}
+      - {x: -2.7636108, y: 0.32214522}
+      - {x: -2.3305035, y: 0.51539373}
+      - {x: -2.044468, y: 0.4022143}
+      - {x: -1.5591278, y: 0.6010909}
+      - {x: -1.1444416, y: 0.6172302}
+      - {x: -0.92241096, y: 0.79560804}
+      - {x: -1.1444416, y: 1.0111098}
+      - {x: -0.18975258, y: 0.94036174}
+      - {x: 0.9908085, y: 0.59168744}
+      - {x: 0.939806, y: 0.2298274}
+      - {x: 1.6001148, y: 0.27200937}
+      - {x: 1.774374, y: 0.16939712}
+      - {x: 2.1815643, y: 0.30413413}
+      - {x: 1.8016148, y: -0.379766}
+      - {x: 1.4071255, y: -0.10981226}
+      - {x: 0.8092632, y: -0.4055128}
+      - {x: 0.8140335, y: -0.7283826}
+      - {x: 0.9614239, y: -0.7817087}
+      - {x: 0.13700485, y: -0.98523426}
+      - {x: -1.0262699, y: -0.30124784}
+      - {x: -1.4246693, y: -0.23442173}
+      - {x: -1.8438015, y: -0.4734516}
+      - {x: -1.8990784, y: -0.7762294}
+      - {x: -2.139944, y: -0.8281021}
+      - {x: -3.3592644, y: -0.5320053}
+--- !u!114 &114095936441382006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443180660006696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63b2c41884fc7747ac7c951f3bbf6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1508
+  gridRect:
+    x: 0
+    y: 0
+    z: 0
+    w: 0
+  addGrids:
+  - x: 49
+    y: 24
+  - x: 49
+    y: 25
+  - x: 50
+    y: 20
+  - x: 50
+    y: 21
+  - x: 50
+    y: 22
+  - x: 50
+    y: 23
+  - x: 50
+    y: 24
+  - x: 50
+    y: 25
+  - x: 50
+    y: 26
+  - x: 50
+    y: 27
+  - x: 50
+    y: 30
+  - x: 51
+    y: 20
+  - x: 51
+    y: 21
+  - x: 51
+    y: 22
+  - x: 51
+    y: 23
+  - x: 51
+    y: 24
+  - x: 51
+    y: 25
+  - x: 51
+    y: 26
+  - x: 51
+    y: 27
+  - x: 51
+    y: 28
+  - x: 51
+    y: 29
+  - x: 51
+    y: 30
+  - x: 51
+    y: 31
+  - x: 52
+    y: 20
+  - x: 52
+    y: 21
+  - x: 52
+    y: 22
+  - x: 52
+    y: 23
+  - x: 52
+    y: 24
+  - x: 52
+    y: 25
+  - x: 52
+    y: 26
+  - x: 52
+    y: 27
+  - x: 52
+    y: 28
+  - x: 52
+    y: 29
+  - x: 52
+    y: 30
+  - x: 52
+    y: 31
+  - x: 53
+    y: 21
+  - x: 53
+    y: 22
+  - x: 53
+    y: 23
+  - x: 53
+    y: 24
+  - x: 53
+    y: 25
+  - x: 53
+    y: 26
+  - x: 53
+    y: 27
+  - x: 53
+    y: 28
+  - x: 53
+    y: 29
+  - x: 53
+    y: 30
+  - x: 53
+    y: 31
+  - x: 54
+    y: 21
+  - x: 54
+    y: 25
+  - x: 54
+    y: 26
+  - x: 54
+    y: 27
+  - x: 54
+    y: 28
+  - x: 54
+    y: 29
+  - x: 54
+    y: 30
+  - x: 54
+    y: 31
+  - x: 54
+    y: 32
+  - x: 55
+    y: 25
+  - x: 55
+    y: 26
+  - x: 55
+    y: 27
+  - x: 55
+    y: 28
+  - x: 55
+    y: 29
+  - x: 55
+    y: 30
+  - x: 55
+    y: 31
+  - x: 55
+    y: 32
+  - x: 56
+    y: 25
+  - x: 56
+    y: 26
+  - x: 56
+    y: 27
+  - x: 56
+    y: 28
+  - x: 56
+    y: 29
+  - x: 56
+    y: 30
+  - x: 56
+    y: 31
+  - x: 57
+    y: 25
+  - x: 57
+    y: 26
+  - x: 57
+    y: 27
+  - x: 57
+    y: 28
+  - x: 57
+    y: 29
+  - x: 57
+    y: 30
+  - x: 57
+    y: 31
+  - x: 58
+    y: 25
+  - x: 58
+    y: 26
+  - x: 58
+    y: 27
+  - x: 58
+    y: 28
+  - x: 58
+    y: 29
+  - x: 58
+    y: 30
+  - x: 58
+    y: 31
+  - x: 58
+    y: 32
+  - x: 59
+    y: 25
+  - x: 59
+    y: 26
+  - x: 59
+    y: 27
+  - x: 59
+    y: 31
+  - x: 59
+    y: 32
+  - x: 60
+    y: 26
+  - x: 48
+    y: 24
+  - x: 49
+    y: 23
+  - x: 48
+    y: 23
+  - x: 48
+    y: 25
+  - x: 49
+    y: 20
+  - x: 50
+    y: 19
+  - x: 49
+    y: 19
+  - x: 49
+    y: 21
+  - x: 49
+    y: 22
+  - x: 49
+    y: 26
+  - x: 49
+    y: 27
+  - x: 49
+    y: 30
+  - x: 50
+    y: 29
+  - x: 49
+    y: 29
+  - x: 51
+    y: 19
+  - x: 50
+    y: 28
+  - x: 50
+    y: 31
+  - x: 52
+    y: 19
+  - x: 53
+    y: 20
+  - x: 54
+    y: 20
+  - x: 54
+    y: 24
+  - x: 53
+    y: 32
+  - x: 55
+    y: 24
+  - x: 56
+    y: 24
+  - x: 57
+    y: 24
+  - x: 58
+    y: 24
+  - x: 57
+    y: 32
+  - x: 59
+    y: 24
+  - x: 59
+    y: 30
+  - x: 60
+    y: 25
+  delGrids: []
+  geography: 1
+  groupMask: 1
+  unlockGrade: 18
+  unlockStar: 87
+  unlockMoneyCost: 48000
+  unlockMoneyType: 2
+  quickUnlockMoneyCost: 0
+  quickUnlockMoneyType: 0
+  maxObstacleCount: 0
+  neighbors: 0300000004000000
+  requirements: 
+  gizmosColor: {r: 1, g: 0.93103445, b: 0, a: 1}

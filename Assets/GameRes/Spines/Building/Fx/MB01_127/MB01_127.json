@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "uGPTRfJtqPjZ4rPGLXGidNjrR2U", "spine": "2.1.27", "width": 74.19, "height": 107.8, "images": "./tu/" },
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "bone3",
+		"parent": "root",
+		"length": 5,
+		"x": 50.23,
+		"y": 24.12,
+		"scaleX": 1.4,
+		"scaleY": 1.4,
+		"rotation": 90,
+		"color": "ff3068ff"
+	}
+],
+"slots": [
+	{ "name": "FX_chengshou/FX_chengshou_1", "bone": "bone3", "attachment": "FX_chengshou/FX_MB127_idle_00000" }
+],
+"skins": {
+	"default": {
+		"FX_chengshou/FX_chengshou_1": {
+			"FX_chengshou/FX_MB127_idle_00000": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00001": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00002": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00003": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00004": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00005": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00006": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00007": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00008": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00009": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00010": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00011": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00012": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00013": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00014": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00015": { "rotation": -90, "width": 53, "height": 77 },
+			"FX_chengshou/FX_MB127_idle_00016": { "rotation": -90, "width": 53, "height": 77 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"FX_chengshou/FX_chengshou_1": {
+				"attachment": [
+					{ "time": 0, "name": "FX_chengshou/FX_MB127_idle_00000" },
+					{ "time": 0.0666, "name": "FX_chengshou/FX_MB127_idle_00001" },
+					{ "time": 0.1333, "name": "FX_chengshou/FX_MB127_idle_00002" },
+					{ "time": 0.2, "name": "FX_chengshou/FX_MB127_idle_00003" },
+					{ "time": 0.2666, "name": "FX_chengshou/FX_MB127_idle_00004" },
+					{ "time": 0.3333, "name": "FX_chengshou/FX_MB127_idle_00005" },
+					{ "time": 0.4, "name": "FX_chengshou/FX_MB127_idle_00006" },
+					{ "time": 0.4666, "name": "FX_chengshou/FX_MB127_idle_00007" },
+					{ "time": 0.5333, "name": "FX_chengshou/FX_MB127_idle_00008" },
+					{ "time": 0.6, "name": "FX_chengshou/FX_MB127_idle_00009" },
+					{ "time": 0.6666, "name": "FX_chengshou/FX_MB127_idle_00010" },
+					{ "time": 0.7333, "name": "FX_chengshou/FX_MB127_idle_00011" },
+					{ "time": 0.8, "name": "FX_chengshou/FX_MB127_idle_00012" },
+					{ "time": 0.8666, "name": "FX_chengshou/FX_MB127_idle_00013" },
+					{ "time": 0.9333, "name": "FX_chengshou/FX_MB127_idle_00014" },
+					{ "time": 1, "name": "FX_chengshou/FX_MB127_idle_00015" },
+					{ "time": 1.0666, "name": "FX_chengshou/FX_MB127_idle_00016" }
+				]
+			}
+		}
+	}
+}
+}

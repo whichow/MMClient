@@ -1,0 +1,136 @@
+{
+"skeleton": { "hash": "bQqdUVuKIA49svKlJby4fazsG04", "spine": "2.1.27", "width": 152, "height": 84, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 29.42, "x": -14.24, "y": 69.31, "rotation": -53.49 },
+	{ "name": "bone2", "parent": "root", "length": 34.55, "x": 29.12, "y": 19.9, "rotation": 135.68 }
+],
+"slots": [
+	{ "name": "Bj_Mz_07_bu", "bone": "root", "attachment": "Bj_Mz_07_bu" }
+],
+"skins": {
+	"default": {
+		"Bj_Mz_07_bu": {
+			"Bj_Mz_07_bu": {
+				"type": "mesh",
+				"uvs": [ 1, 0.6944, 1, 1, 0.40988, 1, 0, 1, 0, 0.3284, 0, 0, 0.66993, 0, 1, 0, 0.85053, 0.31533, 0.22067, 0.68997 ],
+				"triangles": [ 9, 8, 0, 9, 6, 8, 9, 4, 6, 3, 4, 9, 8, 7, 0, 3, 9, 2, 2, 0, 1, 2, 9, 0, 8, 6, 7, 4, 5, 6 ],
+				"vertices": [ 1, 0, 76, 29.23, 1, 1, 0, 76, 3.56, 1, 1, 0, -13.69, 3.56, 1, 1, 0, -76, 3.56, 1, 1, 0, -76, 59.98, 1, 1, 0, -76, 87.56, 1, 1, 0, 25.83, 87.56, 1, 1, 0, 76, 87.56, 1, 2, 2, 11.47, -46.33, 0.52, 1, 46.8, 49.38, 0.48, 2, 2, 58, 43.05, 0.54989, 1, 15.12, -46.3, 0.4501 ],
+				"hull": 8,
+				"edges": [ 2, 4, 4, 6, 2, 0, 0, 14, 0, 4, 0, 16, 10, 12, 12, 14, 16, 12, 8, 10, 12, 8, 6, 8, 4, 18, 18, 8, 16, 18 ],
+				"width": 152,
+				"height": 84
+			}
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"Bj_Mz_07_bu": {
+				"attachment": [
+					{ "time": 0, "name": "Bj_Mz_07_bu" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"Bj_Mz_07_bu": {
+					"Bj_Mz_07_bu": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"touch": {
+		"slots": {
+			"Bj_Mz_07_bu": {
+				"attachment": [
+					{ "time": 0, "name": "Bj_Mz_07_bu" },
+					{ "time": 0.7333, "name": "Bj_Mz_07_bu" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 12.44 },
+					{ "time": 0.2666, "angle": -0.8 },
+					{ "time": 0.5, "angle": 4.19 },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 15.43 },
+					{ "time": 0.2666, "angle": -3.64 },
+					{ "time": 0.5, "angle": 13.03 },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 1, "y": 1.109 },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"Bj_Mz_07_bu": {
+					"Bj_Mz_07_bu": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 0.7333 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.7333 }
+		]
+	}
+}
+}

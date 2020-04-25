@@ -1,0 +1,79 @@
+{
+"skeleton": { "hash": "1xPZEYOMie1Wqkkelk2BePRI9Tg", "spine": "2.1.27", "width": 250.09, "height": 250.09, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "xingxing11304", "parent": "root", "length": 116.53, "rotation": -1.35 },
+	{ "name": "xingxing11305", "parent": "root", "length": 116.53, "rotation": -1.35 }
+],
+"slots": [
+	{ "name": "xingxing11305", "bone": "xingxing11305", "attachment": "xingxing11303" },
+	{ "name": "xingxing11304", "bone": "xingxing11304" }
+],
+"skins": {
+	"default": {
+		"xingxing11304": {
+			"xingxing11304": { "rotation": 1.35, "width": 250, "height": 250 }
+		},
+		"xingxing11305": {
+			"xingxing11303": { "rotation": 1.35, "width": 250, "height": 250 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"xingxing11304": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "xingxing11304" },
+					{ "time": 0.2, "name": "xingxing11304" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"xingxing11305": {
+				"attachment": [
+					{ "time": 0, "name": "xingxing11303" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"xingxing11304": {
+				"rotate": [
+					{ "time": 0.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.0666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 0.1, "y": 0.1 },
+					{ "time": 0.2, "x": 0.6, "y": 0.6 },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"xingxing11305": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.1333, "x": 0.6, "y": 0.6 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

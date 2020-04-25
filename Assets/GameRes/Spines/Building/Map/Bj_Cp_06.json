@@ -1,0 +1,73 @@
+{
+"skeleton": { "hash": "qoYjGEL0unyVGf4EZW3hgBAE8Y4", "spine": "2.1.27", "width": 177, "height": 180, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shuil6_00", "parent": "root", "x": 88.44, "y": 52.12 }
+],
+"slots": [
+	{ "name": "shuil6_00", "bone": "shuil6_00", "attachment": "shuil6_00" }
+],
+"skins": {
+	"default": {
+		"shuil6_00": {
+			"shuil6_00": { "width": 177, "height": 180 },
+			"shuil6_01": { "width": 177, "height": 180 },
+			"shuil6_02": { "width": 177, "height": 180 },
+			"shuil6_03": { "width": 177, "height": 180 },
+			"shuil6_04": { "width": 177, "height": 180 },
+			"shuil6_05": { "width": 177, "height": 180 },
+			"shuil6_06": { "width": 177, "height": 180 },
+			"shuil6_07": { "width": 177, "height": 180 },
+			"shuil6_08": { "width": 177, "height": 180 },
+			"shuil6_09": { "width": 177, "height": 180 },
+			"shuil6_10": { "width": 177, "height": 180 },
+			"shuil6_11": { "width": 177, "height": 180 },
+			"shuil6_12": { "width": 177, "height": 180 },
+			"shuil6_13": { "width": 177, "height": 180 },
+			"shuil6_14": { "width": 177, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"shuil6_00": {
+				"attachment": [
+					{ "time": 0, "name": "shuil6_14" },
+					{ "time": 0.0666, "name": "shuil6_13" },
+					{ "time": 0.1333, "name": "shuil6_12" },
+					{ "time": 0.2, "name": "shuil6_11" },
+					{ "time": 0.2666, "name": "shuil6_10" },
+					{ "time": 0.3333, "name": "shuil6_09" },
+					{ "time": 0.4, "name": "shuil6_08" },
+					{ "time": 0.4666, "name": "shuil6_07" },
+					{ "time": 0.5333, "name": "shuil6_06" },
+					{ "time": 0.6, "name": "shuil6_05" },
+					{ "time": 0.6666, "name": "shuil6_04" },
+					{ "time": 0.7333, "name": "shuil6_03" },
+					{ "time": 0.8, "name": "shuil6_02" },
+					{ "time": 0.8666, "name": "shuil6_01" },
+					{ "time": 0.9333, "name": "shuil6_00" },
+					{ "time": 1, "name": "shuil6_14" }
+				]
+			}
+		},
+		"bones": {
+			"shuil6_00": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

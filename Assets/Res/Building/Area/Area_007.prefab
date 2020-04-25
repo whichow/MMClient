@@ -1,0 +1,759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1389525037848590}
+  m_IsPrefabParent: 1
+--- !u!1 &1389525037848590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4778648663830354}
+  - component: {fileID: 60682505391023922}
+  - component: {fileID: 114977368688137524}
+  m_Layer: 0
+  m_Name: Area_007
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4778648663830354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389525037848590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.84, y: -9.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60682505391023922
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389525037848590}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.1325817, y: -2.8451824}
+      - {x: -1.6310272, y: -2.422287}
+      - {x: -2.3458881, y: -1.6399965}
+      - {x: -2.809986, y: -1.4138403}
+      - {x: -3.0605526, y: -1.5702028}
+      - {x: -3.3484535, y: -1.404891}
+      - {x: -5.229411, y: -0.38246727}
+      - {x: -6.058795, y: -0.279418}
+      - {x: -6.059968, y: -0.0042390823}
+      - {x: -4.5548277, y: 0.69771767}
+      - {x: -4.5232773, y: 0.73628426}
+      - {x: -4.3279333, y: 0.8414812}
+      - {x: -4.260541, y: 0.8470907}
+      - {x: -3.7592793, y: 1.0954885}
+      - {x: -1.8761864, y: 0.93278503}
+      - {x: 0.3785534, y: 1.4433784}
+      - {x: 1.5926857, y: 1.1950712}
+      - {x: 1.1722088, y: -0.28162193}
+      - {x: 0.3138008, y: -1.1165037}
+      - {x: 0.14611053, y: -1.3533382}
+      - {x: -0.22885132, y: -1.6625996}
+      - {x: -0.745718, y: -2.3295822}
+      - {x: -0.58525467, y: -2.6125555}
+--- !u!114 &114977368688137524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389525037848590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63b2c41884fc7747ac7c951f3bbf6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1507
+  gridRect:
+    x: 0
+    y: 0
+    z: 0
+    w: 0
+  addGrids:
+  - x: 66
+    y: -10
+  - x: 66
+    y: -9
+  - x: 66
+    y: -8
+  - x: 66
+    y: -7
+  - x: 66
+    y: -6
+  - x: 66
+    y: -5
+  - x: 66
+    y: -4
+  - x: 66
+    y: -3
+  - x: 66
+    y: -2
+  - x: 67
+    y: -11
+  - x: 67
+    y: -10
+  - x: 67
+    y: -9
+  - x: 67
+    y: -8
+  - x: 67
+    y: -7
+  - x: 67
+    y: -6
+  - x: 67
+    y: -5
+  - x: 67
+    y: -4
+  - x: 67
+    y: -3
+  - x: 67
+    y: -2
+  - x: 67
+    y: -1
+  - x: 68
+    y: -10
+  - x: 68
+    y: -9
+  - x: 68
+    y: -8
+  - x: 68
+    y: -7
+  - x: 68
+    y: -6
+  - x: 68
+    y: -5
+  - x: 68
+    y: -4
+  - x: 68
+    y: -3
+  - x: 68
+    y: -2
+  - x: 68
+    y: -1
+  - x: 68
+    y: 0
+  - x: 69
+    y: -10
+  - x: 69
+    y: -9
+  - x: 69
+    y: -8
+  - x: 69
+    y: -7
+  - x: 69
+    y: -6
+  - x: 69
+    y: -5
+  - x: 69
+    y: -4
+  - x: 69
+    y: -3
+  - x: 69
+    y: -2
+  - x: 69
+    y: -1
+  - x: 69
+    y: 0
+  - x: 69
+    y: 1
+  - x: 70
+    y: -10
+  - x: 70
+    y: -9
+  - x: 70
+    y: -8
+  - x: 70
+    y: -7
+  - x: 70
+    y: -6
+  - x: 70
+    y: -5
+  - x: 70
+    y: -4
+  - x: 70
+    y: -3
+  - x: 70
+    y: -2
+  - x: 70
+    y: -1
+  - x: 70
+    y: 0
+  - x: 70
+    y: 1
+  - x: 71
+    y: -10
+  - x: 71
+    y: -9
+  - x: 71
+    y: -8
+  - x: 71
+    y: -7
+  - x: 71
+    y: -6
+  - x: 71
+    y: -5
+  - x: 71
+    y: -4
+  - x: 71
+    y: -3
+  - x: 71
+    y: -2
+  - x: 71
+    y: -1
+  - x: 71
+    y: 0
+  - x: 71
+    y: 1
+  - x: 71
+    y: 2
+  - x: 71
+    y: 3
+  - x: 71
+    y: 4
+  - x: 72
+    y: -10
+  - x: 72
+    y: -9
+  - x: 72
+    y: -8
+  - x: 72
+    y: -7
+  - x: 72
+    y: -6
+  - x: 72
+    y: -5
+  - x: 72
+    y: -4
+  - x: 72
+    y: -3
+  - x: 72
+    y: -2
+  - x: 72
+    y: -1
+  - x: 72
+    y: 0
+  - x: 72
+    y: 1
+  - x: 72
+    y: 2
+  - x: 72
+    y: 3
+  - x: 72
+    y: 4
+  - x: 72
+    y: 5
+  - x: 72
+    y: 6
+  - x: 72
+    y: 7
+  - x: 73
+    y: -10
+  - x: 73
+    y: -9
+  - x: 73
+    y: -8
+  - x: 73
+    y: -7
+  - x: 73
+    y: -6
+  - x: 73
+    y: -5
+  - x: 73
+    y: -4
+  - x: 73
+    y: -3
+  - x: 73
+    y: -2
+  - x: 73
+    y: -1
+  - x: 73
+    y: 0
+  - x: 73
+    y: 1
+  - x: 73
+    y: 2
+  - x: 73
+    y: 3
+  - x: 73
+    y: 4
+  - x: 73
+    y: 5
+  - x: 73
+    y: 6
+  - x: 73
+    y: 7
+  - x: 73
+    y: 8
+  - x: 74
+    y: -10
+  - x: 74
+    y: -9
+  - x: 74
+    y: -8
+  - x: 74
+    y: -7
+  - x: 74
+    y: -6
+  - x: 74
+    y: -5
+  - x: 74
+    y: -4
+  - x: 74
+    y: -3
+  - x: 74
+    y: -2
+  - x: 74
+    y: -1
+  - x: 74
+    y: 0
+  - x: 74
+    y: 1
+  - x: 74
+    y: 2
+  - x: 74
+    y: 3
+  - x: 74
+    y: 4
+  - x: 74
+    y: 5
+  - x: 74
+    y: 6
+  - x: 74
+    y: 7
+  - x: 74
+    y: 8
+  - x: 75
+    y: -10
+  - x: 75
+    y: -9
+  - x: 75
+    y: -8
+  - x: 75
+    y: -7
+  - x: 75
+    y: -6
+  - x: 75
+    y: -5
+  - x: 75
+    y: -4
+  - x: 75
+    y: -3
+  - x: 75
+    y: -2
+  - x: 75
+    y: -1
+  - x: 75
+    y: 0
+  - x: 75
+    y: 1
+  - x: 75
+    y: 2
+  - x: 75
+    y: 3
+  - x: 75
+    y: 4
+  - x: 75
+    y: 5
+  - x: 75
+    y: 6
+  - x: 75
+    y: 7
+  - x: 75
+    y: 8
+  - x: 75
+    y: 9
+  - x: 76
+    y: -10
+  - x: 76
+    y: -9
+  - x: 76
+    y: -8
+  - x: 76
+    y: -7
+  - x: 76
+    y: -6
+  - x: 76
+    y: -5
+  - x: 76
+    y: -4
+  - x: 76
+    y: -3
+  - x: 76
+    y: -2
+  - x: 76
+    y: -1
+  - x: 76
+    y: 0
+  - x: 76
+    y: 1
+  - x: 76
+    y: 2
+  - x: 76
+    y: 3
+  - x: 76
+    y: 4
+  - x: 76
+    y: 5
+  - x: 76
+    y: 6
+  - x: 76
+    y: 7
+  - x: 76
+    y: 8
+  - x: 76
+    y: 9
+  - x: 77
+    y: -10
+  - x: 77
+    y: -9
+  - x: 77
+    y: -8
+  - x: 77
+    y: -7
+  - x: 77
+    y: -6
+  - x: 77
+    y: -5
+  - x: 77
+    y: -4
+  - x: 77
+    y: -3
+  - x: 77
+    y: -2
+  - x: 77
+    y: -1
+  - x: 77
+    y: 0
+  - x: 77
+    y: 1
+  - x: 77
+    y: 2
+  - x: 77
+    y: 3
+  - x: 77
+    y: 4
+  - x: 77
+    y: 5
+  - x: 77
+    y: 6
+  - x: 77
+    y: 7
+  - x: 77
+    y: 8
+  - x: 78
+    y: -9
+  - x: 78
+    y: -8
+  - x: 78
+    y: -7
+  - x: 78
+    y: -6
+  - x: 78
+    y: -5
+  - x: 78
+    y: -4
+  - x: 78
+    y: -3
+  - x: 78
+    y: -2
+  - x: 78
+    y: -1
+  - x: 78
+    y: 0
+  - x: 78
+    y: 1
+  - x: 78
+    y: 2
+  - x: 78
+    y: 3
+  - x: 78
+    y: 4
+  - x: 78
+    y: 5
+  - x: 78
+    y: 6
+  - x: 78
+    y: 7
+  - x: 79
+    y: -9
+  - x: 79
+    y: -8
+  - x: 79
+    y: -7
+  - x: 79
+    y: -6
+  - x: 79
+    y: -5
+  - x: 79
+    y: -4
+  - x: 79
+    y: -3
+  - x: 79
+    y: -2
+  - x: 79
+    y: -1
+  - x: 79
+    y: 0
+  - x: 79
+    y: 1
+  - x: 79
+    y: 2
+  - x: 79
+    y: 3
+  - x: 79
+    y: 4
+  - x: 79
+    y: 5
+  - x: 80
+    y: -9
+  - x: 80
+    y: -8
+  - x: 80
+    y: -7
+  - x: 80
+    y: -6
+  - x: 80
+    y: -5
+  - x: 80
+    y: -4
+  - x: 80
+    y: -3
+  - x: 80
+    y: -2
+  - x: 80
+    y: -1
+  - x: 80
+    y: 0
+  - x: 80
+    y: 1
+  - x: 80
+    y: 2
+  - x: 80
+    y: 3
+  - x: 80
+    y: 4
+  - x: 81
+    y: -10
+  - x: 81
+    y: -9
+  - x: 81
+    y: -8
+  - x: 81
+    y: -7
+  - x: 81
+    y: -6
+  - x: 81
+    y: -5
+  - x: 81
+    y: -4
+  - x: 81
+    y: -3
+  - x: 81
+    y: -2
+  - x: 81
+    y: -1
+  - x: 81
+    y: 0
+  - x: 81
+    y: 1
+  - x: 81
+    y: 2
+  - x: 81
+    y: 3
+  - x: 82
+    y: -10
+  - x: 82
+    y: -9
+  - x: 82
+    y: -8
+  - x: 82
+    y: -7
+  - x: 82
+    y: -6
+  - x: 82
+    y: -5
+  - x: 82
+    y: -4
+  - x: 82
+    y: -3
+  - x: 82
+    y: -2
+  - x: 82
+    y: -1
+  - x: 83
+    y: -10
+  - x: 83
+    y: -9
+  - x: 83
+    y: -8
+  - x: 83
+    y: -7
+  - x: 83
+    y: -6
+  - x: 83
+    y: -5
+  - x: 83
+    y: -4
+  - x: 83
+    y: -3
+  - x: 84
+    y: -11
+  - x: 84
+    y: -10
+  - x: 84
+    y: -9
+  - x: 84
+    y: -8
+  - x: 84
+    y: -7
+  - x: 84
+    y: -6
+  - x: 85
+    y: -11
+  - x: 85
+    y: -10
+  - x: 85
+    y: -9
+  - x: 86
+    y: -11
+  - x: 86
+    y: -10
+  - x: 65
+    y: -10
+  - x: 66
+    y: -11
+  - x: 65
+    y: -11
+  - x: 65
+    y: -9
+  - x: 65
+    y: -8
+  - x: 65
+    y: -7
+  - x: 65
+    y: -6
+  - x: 65
+    y: -5
+  - x: 65
+    y: -4
+  - x: 65
+    y: -3
+  - x: 65
+    y: -2
+  - x: 67
+    y: -12
+  - x: 66
+    y: -12
+  - x: 66
+    y: -1
+  - x: 68
+    y: -11
+  - x: 67
+    y: 0
+  - x: 69
+    y: -11
+  - x: 68
+    y: 1
+  - x: 70
+    y: -11
+  - x: 71
+    y: -11
+  - x: 70
+    y: 2
+  - x: 70
+    y: 3
+  - x: 70
+    y: 4
+  - x: 72
+    y: -11
+  - x: 71
+    y: 5
+  - x: 71
+    y: 6
+  - x: 71
+    y: 7
+  - x: 73
+    y: -11
+  - x: 72
+    y: 8
+  - x: 74
+    y: -11
+  - x: 75
+    y: -11
+  - x: 74
+    y: 9
+  - x: 76
+    y: -11
+  - x: 77
+    y: -11
+  - x: 78
+    y: -10
+  - x: 79
+    y: -10
+  - x: 80
+    y: -10
+  - x: 81
+    y: -11
+  - x: 80
+    y: -11
+  - x: 82
+    y: -11
+  - x: 83
+    y: -11
+  - x: 84
+    y: -12
+  - x: 83
+    y: -12
+  - x: 85
+    y: -12
+  - x: 86
+    y: -12
+  delGrids: []
+  geography: 1
+  groupMask: 1
+  unlockGrade: 23
+  unlockStar: 78
+  unlockMoneyCost: 50000
+  unlockMoneyType: 2
+  quickUnlockMoneyCost: 0
+  quickUnlockMoneyType: 0
+  maxObstacleCount: 0
+  neighbors: 05000000
+  requirements: 
+  gizmosColor: {r: 0.4280926, g: 0, b: 0.4280926, a: 1}

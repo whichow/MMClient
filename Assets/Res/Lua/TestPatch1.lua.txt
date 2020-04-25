@@ -1,0 +1,77 @@
+print("Patch1")
+
+xlua.private_accessible(CS.Game.LoginWindow) -- 如果是private的，在lua设置xlua.private_accessible(CS.HotfixTest)后即可访问
+-- xlua.private_accessible(CS.Game.UI.MainWindow) -- 如果是private的，在lua设置xlua.private_accessible(CS.HotfixTest)后即可访问
+
+-- local function DebugMY(self)
+--     local server = self.serverList[self.dropdown.value];
+--     CS.Game.KConfig.ServerURL = string.sub(server, 10);
+
+--     local openId = self.inputField.text;
+--     if (openId ~= "") then
+--         CS.UnityEngine.PlayerPrefs.SetInt("server_index", self.dropdown.value);
+--         CS.UnityEngine.PlayerPrefs.SetString("account_postfix", openId);
+--         CS.UnityEngine.PlayerPrefs.Save();
+--     else
+--         openId = "test001";
+--         CS.UnityEngine.PlayerPrefs.SetString("account_postfix", openId);
+--         CS.UnityEngine.PlayerPrefs.Save();
+--     end
+-- end
+
+-- local function LoginWindow_OnLoginBtnClick(self)
+--     print("[Lua]>>>>>LoginWindow_OnLoginBtnClick");
+--     DebugMY(self);
+    
+--     self:HideLogin();
+--     local gameFsm = CS.KFramework.FsmManager:GetFsm("Game.GameFsm.");
+--     if (gameFsm ~= nil) then
+--         gameFsm:SendEvent(self, CS.Game.LoginState.kStartLogin, "guest");
+--     end
+-- end
+
+local function showMsg()
+    print("showMsg Lua -- ");
+    CS.Game.UI.MessageBox.ShowMessage("热更新测试1");
+end
+
+-- local function IntervalHandler(args, count)
+--     print("IntervalHandler Lua -- " .. count);
+-- end
+
+local function LoginWindow_Start(self)
+    self:InitView();
+    CS.Debuger.Log(self,self);
+    local go = CS.UnityEngine.GameObject.Find("Panel/UserAgree");
+    local txt = go.GetComponent(go, "Text");
+    txt.IDLanguage = 0;
+    txt.text = "----------------此处为Lua热更新，执行Lua代码改变的文本内容！";
+
+    -- CS.Game.SNTimer.SetTimeInterval(IntervalHandler, 1000);
+    -- CS.Game.GameUtils.SetTimeout(showMsg, 3);
+
+end
+
+local function MainWindow_UpdatePerSecond(self)
+    -- CS.Debuger.Log("MainWindow_UpdatePerSecond Lua -- ");
+    base(self):UpdatePerSecond(); --调用C#父类方法
+    self:CheckFunction(); --调用C#本类方法
+end
+
+-- xlua.hotfix(
+--     CS.Game.LoginWindow,
+--     "OnLoginBtnClick",
+--     LoginWindow_OnLoginBtnClick
+-- )
+
+xlua.hotfix(
+    CS.Game.LoginWindow,
+    "Start",
+    LoginWindow_Start
+)
+
+xlua.hotfix(
+    CS.Game.UI.MainWindow,
+    "UpdatePerSecond",
+    MainWindow_UpdatePerSecond
+)

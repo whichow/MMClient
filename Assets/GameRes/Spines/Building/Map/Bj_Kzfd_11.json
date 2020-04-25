@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "VVfbacU6KJ0osaBD0+f1obpTaLw", "spine": "2.1.27", "width": 288, "height": 179, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone3", "parent": "bone", "x": 58.94, "y": 69.17 }
+],
+"slots": [
+	{ "name": "Bj_Kzfd_11", "bone": "bone", "attachment": "Bj_Kzfd_11" },
+	{ "name": "FX1", "bone": "bone3", "color": "ffffff47", "attachment": "FX_hu/kongzhongdao_idle_0100014" }
+],
+"skins": {
+	"default": {
+		"Bj_Kzfd_11": {
+			"Bj_Kzfd_11": { "x": 63.08, "y": 77.68, "width": 288, "height": 179 }
+		},
+		"FX1": {
+			"FX_hu/kongzhongdao_idle_0100000": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100001": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100002": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100003": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100004": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100005": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100006": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100007": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100008": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100009": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100010": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100011": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100012": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100013": { "width": 266, "height": 138 },
+			"FX_hu/kongzhongdao_idle_0100014": { "width": 266, "height": 138 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"FX1": {
+				"attachment": [
+					{ "time": 0, "name": "FX_hu/kongzhongdao_idle_0100000" },
+					{ "time": 0.0666, "name": "FX_hu/kongzhongdao_idle_0100001" },
+					{ "time": 0.1666, "name": "FX_hu/kongzhongdao_idle_0100002" },
+					{ "time": 0.2333, "name": "FX_hu/kongzhongdao_idle_0100003" },
+					{ "time": 0.3, "name": "FX_hu/kongzhongdao_idle_0100004" },
+					{ "time": 0.3666, "name": "FX_hu/kongzhongdao_idle_0100005" },
+					{ "time": 0.4666, "name": "FX_hu/kongzhongdao_idle_0100006" },
+					{ "time": 0.5333, "name": "FX_hu/kongzhongdao_idle_0100007" },
+					{ "time": 0.6, "name": "FX_hu/kongzhongdao_idle_0100008" },
+					{ "time": 0.7, "name": "FX_hu/kongzhongdao_idle_0100009" },
+					{ "time": 0.7666, "name": "FX_hu/kongzhongdao_idle_0100011" },
+					{ "time": 0.8333, "name": "FX_hu/kongzhongdao_idle_0100012" },
+					{ "time": 0.9, "name": "FX_hu/kongzhongdao_idle_0100013" },
+					{ "time": 1, "name": "FX_hu/kongzhongdao_idle_0100014" }
+				]
+			}
+		}
+	}
+}
+}

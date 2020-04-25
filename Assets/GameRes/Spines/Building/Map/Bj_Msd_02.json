@@ -1,0 +1,140 @@
+{
+"skeleton": { "hash": "DktPO9oWodZa/qlK4hikXI1hR8k", "spine": "2.1.27", "width": 502.03, "height": 640.91, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 151.52, "rotation": 90 },
+	{ "name": "bone2", "parent": "bone", "length": 141, "x": 151.41, "y": 0.47 },
+	{ "name": "bone3", "parent": "bone2", "length": 151.08, "x": 141, "y": 1, "rotation": 1.8 }
+],
+"slots": [
+	{ "name": "Bj_Msd_02", "bone": "bone3", "attachment": "image/Bj_Msd_02" },
+	{ "name": "image/FX_jianzhu_touchi_01_00001", "bone": "root", "attachment": "image/FX_jianzhu_touchi_01_00013" }
+],
+"skins": {
+	"default": {
+		"Bj_Msd_02": {
+			"image/Bj_Msd_02": {
+				"type": "mesh",
+				"uvs": [ 0.26859, 0, 0.60319, 0, 0.74659, 0.33529, 0.84902, 0.51678, 1, 0.8831, 0.70221, 0.98729, 0.28224, 0.99401, 0, 0.70834, 0.07738, 0.45628, 0.15591, 0.24119 ],
+				"triangles": [ 2, 9, 1, 9, 0, 1, 8, 9, 2, 3, 8, 2, 3, 5, 6, 6, 7, 8, 5, 3, 4, 3, 6, 8 ],
+				"vertices": [ 2, 2, 342.82, 117.26, 0.0049, 3, 205.39, 109.82, 0.99509, 1, 3, 200.14, -58.06, 1, 2, 2, 171.91, -122.76, 0.51652, 3, 26.98, -124.67, 0.48346, 3, 1, 230.78, -173.73, 0.14749, 2, 79.37, -174.21, 0.4425, 3, -67.12999, -173.17, 0.41, 1, 1, 43.98, -249.59, 1, 1, 1, -9.2, -100.12, 1, 1, 1, -12.71, 110.69, 1, 1, 1, 132.92, 252.43, 1, 3, 1, 261.48, 213.63, 0.14749, 2, 110.07, 213.15, 0.4425, 3, -24.19, 213.03, 0.41, 2, 2, 219.78, 173.77, 0.51828, 3, 84.21, 170.2, 0.48171 ],
+				"hull": 10,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 0, 18, 18, 4, 16, 6 ],
+				"width": 502,
+				"height": 510
+			}
+		},
+		"image/FX_jianzhu_touchi_01_00001": {
+			"image/FX_jianzhu_touchi_01_00001": { "x": -30.85, "y": 510, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00002": { "x": -30.85, "y": 515, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00003": { "x": -30.85, "y": 520, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00004": { "x": -30.85, "y": 525, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00005": { "x": -30.85, "y": 530, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00006": { "x": -30.85, "y": 535, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00007": { "x": -30.85, "y": 540, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00008": { "x": -30.85, "y": 545, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00009": { "x": -30.85, "y": 550, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00010": { "x": -30.85, "y": 555, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00011": { "x": -30.85, "y": 560, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00012": { "x": -30.85, "y": 565, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 },
+			"image/FX_jianzhu_touchi_01_00013": { "x": -30.85, "y": 570, "scaleX": 1.8, "scaleY": 1.2, "width": 79, "height": 97 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"image/FX_jianzhu_touchi_01_00001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 0.99, "y": 0.99 },
+					{ "time": 1.6666, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 0.99, "y": 0.99 },
+					{ "time": 1.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"touch": {
+		"slots": {
+			"image/FX_jianzhu_touchi_01_00001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.2, "name": "image/FX_jianzhu_touchi_01_00001" },
+					{ "time": 0.2666, "name": "image/FX_jianzhu_touchi_01_00002" },
+					{ "time": 0.3333, "name": "image/FX_jianzhu_touchi_01_00003" },
+					{ "time": 0.4, "name": "image/FX_jianzhu_touchi_01_00004" },
+					{ "time": 0.4666, "name": "image/FX_jianzhu_touchi_01_00005" },
+					{ "time": 0.5333, "name": "image/FX_jianzhu_touchi_01_00006" },
+					{ "time": 0.6, "name": "image/FX_jianzhu_touchi_01_00007" },
+					{ "time": 0.6666, "name": "image/FX_jianzhu_touchi_01_00008" },
+					{ "time": 0.7333, "name": "image/FX_jianzhu_touchi_01_00009" },
+					{ "time": 0.8, "name": "image/FX_jianzhu_touchi_01_00010" },
+					{ "time": 0.8666, "name": "image/FX_jianzhu_touchi_01_00011" },
+					{ "time": 0.9333, "name": "image/FX_jianzhu_touchi_01_00012" },
+					{ "time": 1, "name": "image/FX_jianzhu_touchi_01_00013" },
+					{ "time": 1.0666, "name": null }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff89" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 0.943, "y": 1.037 },
+					{ "time": 0.2, "x": 1.103, "y": 0.943 },
+					{ "time": 0.4, "x": 1.02, "y": 1.018 },
+					{ "time": 0.6333, "x": 1.097, "y": 0.981 },
+					{ "time": 0.8666, "x": 1.055, "y": 1.018 },
+					{ "time": 1.0666, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 0.959, "y": 1 },
+					{ "time": 0.2, "x": 0.992, "y": 1 },
+					{ "time": 0.4, "x": 0.974, "y": 1 },
+					{ "time": 0.6333, "x": 1.01, "y": 1 },
+					{ "time": 0.8666, "x": 1.006, "y": 1 },
+					{ "time": 1.0666, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 0.958, "y": 1 },
+					{ "time": 0.2, "x": 0.975, "y": 1 },
+					{ "time": 0.4, "x": 0.956, "y": 1 },
+					{ "time": 0.6333, "x": 0.972, "y": 1 },
+					{ "time": 0.8666, "x": 0.955, "y": 1 },
+					{ "time": 1.0666, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

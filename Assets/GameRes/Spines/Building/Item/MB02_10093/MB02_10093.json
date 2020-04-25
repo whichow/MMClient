@@ -1,0 +1,452 @@
+{
+"skeleton": { "hash": "qojzwl0+oQy1Lsgq5f66o1L5k0w", "spine": "2.1.27", "width": 220.38, "height": 285.73, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hua", "parent": "root", "length": 3.43, "x": 121.98, "y": 7.57, "rotation": -11.56 },
+	{ "name": "ye1", "parent": "root", "length": 9.14, "x": 136.95, "y": -8.58, "rotation": 72.38 },
+	{ "name": "ye2", "parent": "root", "length": 10.75, "x": 101.81, "y": -13.8, "rotation": 77.47 },
+	{ "name": "zhu", "parent": "root", "length": 71.56, "x": 111.2, "y": 8.76, "rotation": 90.9 },
+	{ "name": "linghuan", "parent": "zhu", "length": 5.41, "x": 86.96, "y": 11.83, "rotation": -45 },
+	{ "name": "zhu2", "parent": "zhu", "length": 43.21, "x": 75.38, "y": -1.36, "rotation": -34.62 },
+	{ "name": "lingdang", "parent": "linghuan", "length": 23.15, "x": 31.41, "y": 7.53, "rotation": -135 },
+	{ "name": "zhu3", "parent": "zhu2", "length": 87.83, "x": 58.48, "y": 3.38, "rotation": 35.62 },
+	{ "name": "fengche1", "parent": "zhu3", "length": 27.73, "x": 78.21, "y": -11.15, "rotation": -94.5 },
+	{ "name": "fengche2", "parent": "zhu3", "length": 40.95, "x": 78.65, "y": 6.96, "rotation": 87.74 },
+	{ "name": "huangling", "parent": "zhu3", "length": 28.34, "x": 55.58, "y": -0.77, "rotation": 175.95, "color": "ff80f7ff" }
+],
+"slots": [
+	{ "name": "YY", "bone": "root", "attachment": "images/YY" },
+	{ "name": "chehou", "bone": "zhu3", "attachment": "images/chehou" },
+	{ "name": "zhu", "bone": "zhu2", "attachment": "images/zhu" },
+	{ "name": "lingdang", "bone": "lingdang", "attachment": "images/lingdang" },
+	{ "name": "linghuan", "bone": "linghuan", "attachment": "images/linghuan" },
+	{ "name": "ye1", "bone": "ye1", "attachment": "images/ye1" },
+	{ "name": "ye2", "bone": "ye2", "attachment": "images/ye2" },
+	{ "name": "hua", "bone": "hua", "attachment": "images/hua" },
+	{ "name": "fengche1", "bone": "fengche2", "attachment": "images/fengche1" },
+	{ "name": "huangling", "bone": "huangling", "attachment": "images/huangling" }
+],
+"skins": {
+	"default": {
+		"YY": {
+			"images/YY": { "x": 178.49, "y": 0.78, "width": 171, "height": 75 }
+		},
+		"chehou": {
+			"images/chehou": {
+				"type": "mesh",
+				"uvs": [ 1, 0.20514, 1, 0.84343, 0.74336, 1, 0.44047, 1, 0, 0.77497, 0, 0.36569, 0.37458, 0, 0.72916, 0 ],
+				"triangles": [ 3, 4, 5, 3, 7, 0, 3, 6, 7, 0, 2, 3, 3, 5, 6, 1, 2, 0 ],
+				"vertices": [ 103.58, -34.83, 73.6, -33.84999, 66.5, -25.66, 66.81, -16.27, 77.83, -2.97, 97.05, -3.6, 113.85, -15.77, 113.49, -26.76 ],
+				"hull": 8,
+				"edges": [ 8, 6, 4, 6, 4, 2, 2, 0, 14, 0, 12, 14, 8, 10, 12, 10 ],
+				"width": 31,
+				"height": 47
+			}
+		},
+		"fengche1": {
+			"images/fengche1": {
+				"type": "mesh",
+				"uvs": [ 1, 0.19757, 1, 0.82939, 0.88044, 1, 0.76162, 1, 0.5953, 0.71486, 0.47444, 0.69497, 0.25485, 0.907, 0.08238, 0.89658, 0, 0.65781, 0, 0.41073, 0.04904, 0.17499, 0.15586, 0, 0.29254, 0, 0.48048, 0.25356, 0.60396, 0.23781, 0.84875, 0, 0.19772, 0.13799, 0.08198, 0.45285, 0.12013, 0.80168, 0.85937, 0.1846, 0.93148, 0.53522, 0.87661, 0.91464 ],
+				"triangles": [ 14, 5, 13, 7, 18, 6, 6, 18, 5, 7, 8, 18, 5, 18, 17, 18, 8, 17, 5, 17, 13, 8, 9, 17, 9, 10, 17, 17, 16, 13, 17, 10, 16, 13, 16, 12, 10, 11, 16, 16, 11, 12, 3, 21, 2, 2, 21, 1, 3, 4, 21, 1, 21, 20, 21, 4, 20, 20, 0, 1, 4, 5, 14, 20, 4, 14, 14, 19, 20, 20, 19, 0, 14, 15, 19, 0, 19, 15 ],
+				"vertices": [ 1, 9, 39.43, 18.81, 1, 1, 9, 40.9, -17.74, 1, 1, 9, 28.18, -28.15, 1, 1, 9, 15.14, -28.67, 1, 1, 9, -3.77, -12.91, 1, 1, 10, -0.57, 11.35, 1, 1, 10, 23.53, 23.67, 1, 1, 10, 42.47, 23.09, 1, 1, 10, 51.54, 9.28, 1, 1, 10, 51.57, -5.02, 1, 1, 10, 46.2, -18.68, 1, 1, 10, 34.48, -28.84, 1, 1, 10, 19.46999, -28.86, 1, 1, 10, -1.19, -14.21, 1, 1, 9, -3.94, 14.73, 1, 1, 9, 22.37, 29.58, 1, 1, 10, 29.87, -20.85, 1, 1, 10, 42.56, -2.59999, 1, 1, 10, 38.33, 17.59, 1, 1, 9, 23.96, 18.94, 1, 1, 9, 32.7, -1.02, 1, 1, 9, 27.56, -23.22, 1 ],
+				"hull": 16,
+				"edges": [ 30, 0, 0, 2, 2, 4, 4, 6, 6, 8, 30, 28, 28, 8, 28, 26, 26, 24, 22, 24, 22, 20, 20, 18, 16, 18, 16, 14, 14, 12, 12, 10, 10, 26, 10, 8 ],
+				"width": 110,
+				"height": 58
+			}
+		},
+		"hua": {
+			"images/hua": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 31, -11.28, -16.02, -20.91, -22.43, 10.43, 24.58, 20.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 48,
+				"height": 32
+			}
+		},
+		"huangling": {
+			"images/huangling": {
+				"type": "mesh",
+				"uvs": [ 1, 0.54542, 1, 0.81499, 0.61531, 1, 0.31335, 1, 0, 0.80194, 0, 0.49676, 0.23823, 0, 0.75257, 0 ],
+				"triangles": [ 3, 4, 5, 7, 5, 6, 5, 7, 0, 5, 0, 2, 5, 2, 3, 1, 2, 0 ],
+				"vertices": [ 19.73, 26.01, 32.12, 26.48, 41.36, 7.19, 41.93, -8.18999, 33.43, -24.5, 19.4, -25.02, -3.88, -13.74, -4.86, 12.47 ],
+				"hull": 8,
+				"edges": [ 12, 10, 12, 14, 14, 0, 8, 10, 8, 6, 4, 6, 0, 2, 4, 2 ],
+				"width": 51,
+				"height": 46
+			}
+		},
+		"lingdang": {
+			"images/lingdang": {
+				"type": "mesh",
+				"uvs": [ 1, 0.40179, 1, 1, 0, 1, 0, 0.31539, 0.24787, 0, 0.66487, 0 ],
+				"triangles": [ 3, 4, 5, 0, 3, 5, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ 12.19, 15.17, 34.32, 14.82, 33.84, -15.16, 8.52, -14.76, -3.02, -7.14, -2.82, 5.36 ],
+				"hull": 6,
+				"edges": [ 2, 4, 2, 0, 10, 0, 8, 10, 4, 6, 8, 6, 6, 0 ],
+				"width": 30,
+				"height": 37
+			}
+		},
+		"linghuan": {
+			"images/linghuan": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 19.85, -62.37, -58.76, 18.75, 2.26, 77.89, 80.87999, -3.23 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 113,
+				"height": 85
+			}
+		},
+		"ye1": {
+			"images/ye1": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -8.59, -33.84, -25.23, 18.57, 22.41, 33.68999, 39.05, -18.70999 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 55,
+				"height": 50
+			}
+		},
+		"ye2": {
+			"images/ye2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -9.5, -28.87, -20.35, 19.93, 22.59, 29.48, 33.43999, -19.32 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 50,
+				"height": 44
+			}
+		},
+		"zhu": {
+			"images/zhu": {
+				"type": "mesh",
+				"uvs": [ 0.87079, 0.4107, 0.65424, 0.62316, 0.67035, 0.69506, 0.67885, 0.7561, 1, 0.80192, 1, 1, 0.80486, 0.89933, 0.33779, 0.92583, 0.36499, 1, 0, 1, 0, 0.82942, 0.29079, 0.76156, 0.30026, 0.69229, 0.11718, 0.64148, 0.11337, 0.57622, 0.34137, 0.52941, 0.62741, 0.3772, 0.58138, 0, 0.86342, 0, 0.47899, 0.73578, 0.20344, 0.89648 ],
+				"triangles": [ 16, 18, 0, 16, 17, 18, 15, 16, 1, 1, 16, 0, 6, 4, 5, 9, 20, 8, 20, 7, 8, 9, 10, 20, 7, 3, 6, 7, 19, 3, 20, 11, 7, 7, 11, 19, 6, 3, 4, 20, 10, 11, 11, 12, 19, 19, 2, 3, 19, 1, 2, 1, 19, 15, 19, 12, 15, 15, 12, 14, 12, 13, 14 ],
+				"vertices": [ 2, 6, 60.53, -11.36, 0.552, 8, -6.93, -13.18, 0.44799, 2, 4, 65.14, -20.45999, 0.376, 6, 2.42, -21.53, 0.62399, 2, 4, 46.85, -21.95, 0.90399, 6, -11.77, -33.15, 0.096, 1, 4, 31.34, -22.64, 1, 1, 4, 19.15, -57.79, 1, 1, 4, -31.14, -57, 1, 1, 4, -5.23999, -35.93999, 1, 1, 4, -11.18, 15.53, 1, 1, 4, -30.06, 12.83, 1, 1, 4, -29.44, 52.97, 1, 1, 4, 13.88, 52.3, 1, 1, 4, 30.61, 20.04999, 1, 1, 4, 48.19, 18.73, 1, 1, 4, 61.41, 38.66999, 1, 1, 4, 77.99, 38.83, 1, 2, 4, 89.49, 13.57, 0.616, 6, 3.11, 20.31, 0.38399, 2, 6, 52.73, 15.61, 0.552, 8, 2.45, 13.29, 0.44799, 1, 8, 98.37, 15.21, 1, 1, 8, 97.35, -15.79, 1, 1, 4, 36.84, -0.74, 1, 1, 4, -3.49, 30.19, 1 ],
+				"hull": 19,
+				"edges": [ 16, 18, 16, 14, 14, 12, 12, 10, 10, 8, 8, 6, 6, 4, 4, 38, 38, 24, 24, 22, 18, 20, 22, 20, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 0, 0, 2, 2, 4, 22, 40, 40, 14, 6, 12 ],
+				"width": 110,
+				"height": 254
+			}
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"YY": {
+				"attachment": [
+					{ "time": 0, "name": "images/YY" },
+					{ "time": 1, "name": "images/YY" }
+				]
+			},
+			"chehou": {
+				"attachment": [
+					{ "time": 0, "name": "images/chehou" },
+					{ "time": 1, "name": "images/chehou" }
+				]
+			},
+			"fengche1": {
+				"attachment": [
+					{ "time": 0, "name": "images/fengche1" },
+					{ "time": 1, "name": "images/fengche1" }
+				]
+			},
+			"hua": {
+				"attachment": [
+					{ "time": 0, "name": "images/hua" },
+					{ "time": 1, "name": "images/hua" }
+				]
+			},
+			"huangling": {
+				"attachment": [
+					{ "time": 0, "name": "images/huangling" },
+					{ "time": 1, "name": "images/huangling" }
+				]
+			},
+			"lingdang": {
+				"attachment": [
+					{ "time": 0, "name": "images/lingdang" },
+					{ "time": 1, "name": "images/lingdang" }
+				]
+			},
+			"linghuan": {
+				"attachment": [
+					{ "time": 0, "name": "images/linghuan" },
+					{ "time": 1, "name": "images/linghuan" }
+				]
+			},
+			"ye1": {
+				"attachment": [
+					{ "time": 0, "name": "images/ye1" },
+					{ "time": 1, "name": "images/ye1" }
+				]
+			},
+			"ye2": {
+				"attachment": [
+					{ "time": 0, "name": "images/ye2" },
+					{ "time": 1, "name": "images/ye2" }
+				]
+			},
+			"zhu": {
+				"attachment": [
+					{ "time": 0, "name": "images/zhu" },
+					{ "time": 1, "name": "images/zhu" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"hua": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"ye1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"ye2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"linghuan": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"lingdang": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 5.1 },
+					{ "time": 0.6666, "angle": -8.49 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"zhu3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"fengche2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": -0.02, "y": -0.73 },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 0.832, "y": 0.956 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"huangling": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -7.66 },
+					{ "time": 0.6666, "angle": -351.54 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"fengche1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0.66, "y": -0.21 },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.186, "y": 1.059 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"zhu2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"zhu": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"chehou": {
+					"images/chehou": [
+						{ "time": 0 },
+						{
+							"time": 0.5,
+							"vertices": [ 4.85142, 11.01683, 1.10075, 12.56724, 1.59132, 13.02624, -0.21862, 8.88511, 0.09452, 2.84843, 0.09452, 2.84843, -4.93489, 9.99198, 1.48034, 9.70283 ]
+						},
+						{ "time": 1 }
+					]
+				},
+				"fengche1": {
+					"images/fengche1": [
+						{ "time": 0 },
+						{
+							"time": 0.5,
+							"offset": 32,
+							"vertices": [ -7.83773, -0.04278, -7.83773, -0.04278, -7.83773, -0.04278, 7.6053, 0.38388, 5.91523, 0.29856, 5.81969, 2.66566 ]
+						},
+						{ "time": 1 }
+					]
+				},
+				"hua": {
+					"images/hua": [
+						{ "time": 0 }
+					]
+				},
+				"huangling": {
+					"images/huangling": [
+						{ "time": 0 }
+					]
+				},
+				"lingdang": {
+					"images/lingdang": [
+						{ "time": 0 }
+					]
+				},
+				"linghuan": {
+					"images/linghuan": [
+						{ "time": 0 }
+					]
+				},
+				"ye1": {
+					"images/ye1": [
+						{ "time": 0 }
+					]
+				},
+				"ye2": {
+					"images/ye2": [
+						{ "time": 0 }
+					]
+				},
+				"zhu": {
+					"images/zhu": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 }
+		]
+	}
+}
+}

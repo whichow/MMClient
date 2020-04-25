@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "m2Ok6MwRiaAbb2erCEllBAd11oc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 0.56, "y": -19.31 },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone4", "parent": "bone", "x": 0.75, "y": 28.5, "scaleX": 0.85, "scaleY": 0.85 }
+],
+"slots": [
+	{ "name": "FX/FX_glow_nengliang_00000", "bone": "bone4", "attachment": "FX/FX_glow_nengliang_00000" }
+],
+"skins": {
+	"default": {
+		"FX/FX_glow_nengliang_00000": {
+			"FX/FX_glow_nengliang_00000": { "x": -7.4, "y": 2.33, "width": 109, "height": 83 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"FX/FX_glow_nengliang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "FX/FX_glow_nengliang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "ffffff29" },
+					{ "time": 1.6666, "color": "ffffffff" }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.6666 }
+		]
+	}
+}
+}

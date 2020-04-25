@@ -1,0 +1,2119 @@
+{
+"skeleton": { "hash": "al/UGkRBk4IyA9lRv3LLD7CrQ2k", "spine": "2.1.27", "width": 110.8, "height": 107.04, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": 1.27, "scaleX": 0.939, "scaleY": 0.939 },
+	{ "name": "FX_liwu_touch", "parent": "bone", "x": 0.92, "y": 6.79, "color": "08ff00ff" },
+	{ "name": "he", "parent": "bone", "x": 0.54, "y": 1.93 },
+	{ "name": "hengdai", "parent": "bone", "x": -1.81, "y": 5.89 },
+	{ "name": "hudie", "parent": "bone", "x": 6.76, "y": 12.59 },
+	{ "name": "shang", "parent": "bone", "x": -2.19, "y": 53.16 },
+	{ "name": "shudai", "parent": "bone", "x": -3.65, "y": 5.79, "rotation": 91.8 },
+	{ "name": "xia", "parent": "bone", "x": -8.92, "y": -38.82 },
+	{ "name": "you", "parent": "bone", "x": 45.47, "y": 6.31 },
+	{ "name": "zuo", "parent": "bone", "x": -51.1, "y": 2.2 }
+],
+"slots": [
+	{ "name": "shang_z", "bone": "shang", "attachment": "zong" },
+	{ "name": "zuo_z", "bone": "zuo", "attachment": "zong" },
+	{ "name": "xia_z", "bone": "xia", "attachment": "zong" },
+	{ "name": "you_Z", "bone": "you", "attachment": "zong" },
+	{ "name": "hudie_z", "bone": "hudie", "attachment": "zong" },
+	{ "name": "hengdai_z", "bone": "hengdai", "attachment": "zong" },
+	{ "name": "shudai_z", "bone": "shudai", "attachment": "zong" },
+	{ "name": "he_zong", "bone": "he", "attachment": "zong" },
+	{ "name": "xia_zi", "bone": "xia", "attachment": "zi" },
+	{ "name": "zuo_zi", "bone": "zuo", "attachment": "zi" },
+	{ "name": "you_zi", "bone": "you", "attachment": "zi" },
+	{ "name": "shang_zi", "bone": "shang", "attachment": "zi" },
+	{ "name": "he_zi", "bone": "he", "attachment": "zi" },
+	{ "name": "hengdai_zi", "bone": "hengdai", "attachment": "zi" },
+	{ "name": "shudai_zi", "bone": "shudai", "attachment": "zi" },
+	{ "name": "hudie_zi", "bone": "hudie", "attachment": "zi" },
+	{ "name": "zuo_lv", "bone": "zuo", "attachment": "lv" },
+	{ "name": "xia_lv", "bone": "xia", "attachment": "lv" },
+	{ "name": "shang_lv", "bone": "shang", "attachment": "lv" },
+	{ "name": "you_lv", "bone": "you", "attachment": "lv" },
+	{ "name": "hengdai_lv", "bone": "hengdai", "attachment": "lv" },
+	{ "name": "shudai_lv", "bone": "shudai", "attachment": "lv" },
+	{ "name": "hudie_lv", "bone": "hudie", "attachment": "lv" },
+	{ "name": "he_lv", "bone": "he", "attachment": "lv" },
+	{ "name": "you_lan", "bone": "you", "attachment": "lan" },
+	{ "name": "shang_lan", "bone": "shang", "attachment": "lan" },
+	{ "name": "zuo_lan", "bone": "zuo", "attachment": "lan" },
+	{ "name": "xia_lan", "bone": "xia", "attachment": "lan" },
+	{ "name": "hengdai_lan", "bone": "hengdai", "attachment": "lan" },
+	{ "name": "shudai_lan", "bone": "shudai", "attachment": "lan" },
+	{ "name": "hudie_lan", "bone": "hudie", "attachment": "lan" },
+	{ "name": "he_lan", "bone": "he", "attachment": "lan" },
+	{ "name": "zuo_huang", "bone": "zuo", "attachment": "huang" },
+	{ "name": "shang_huang", "bone": "shang", "attachment": "huang" },
+	{ "name": "xia_huang", "bone": "xia", "attachment": "huang" },
+	{ "name": "hengdai_huang", "bone": "hengdai", "attachment": "huang" },
+	{ "name": "shudai_huang", "bone": "shudai", "attachment": "huang" },
+	{ "name": "hudie_huang", "bone": "hudie" },
+	{ "name": "you_hong", "bone": "you", "attachment": "hong" },
+	{ "name": "shang_hong", "bone": "shang", "attachment": "hong" },
+	{ "name": "zuo_hong", "bone": "zuo", "attachment": "hong" },
+	{ "name": "xia_hong", "bone": "xia", "attachment": "hong" },
+	{ "name": "hengdai_hong", "bone": "hengdai", "attachment": "hong" },
+	{ "name": "shudai_hong", "bone": "shudai", "attachment": "hong" },
+	{ "name": "huudei_hong", "bone": "hudie", "attachment": "hong" },
+	{ "name": "he_hong", "bone": "he", "attachment": "hong" },
+	{ "name": "you_huang", "bone": "you", "attachment": "huang" },
+	{ "name": "huang", "bone": "he", "attachment": "huang" },
+	{ "name": "FX_liwu_Touch_/FX_liwu_touch_00001", "bone": "FX_liwu_touch" }
+],
+"skins": {
+	"default": {
+		"FX_liwu_Touch_/FX_liwu_touch_00001": {
+			"FX_other66_Touch_G/FX_other66_Touch__00001": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00002": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00003": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00004": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00005": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00006": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00007": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00008": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00009": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00010": { "width": 260, "height": 264 },
+			"FX_other66_Touch_G/FX_other66_Touch__00011": { "width": 260, "height": 264 }
+		}
+	},
+	"hong": {
+		"he_hong": {
+			"hong": {
+				"name": "he_hong",
+				"type": "mesh",
+				"uvs": [ 1, 0.3512, 1, 0.60137, 1, 1, 0.61708, 1, 0.35362, 1, 0, 1, 0, 0.59422, 0, 0.3512, 0, 0, 0.3501, 0, 0.596, 0, 1, 0, 0.60654, 0.36907, 0.61357, 0.57214, 0.3501, 0.59422, 0.34659, 0.34762 ],
+				"triangles": [ 15, 8, 9, 7, 8, 15, 10, 11, 0, 12, 10, 0, 15, 9, 10, 12, 15, 10, 13, 12, 0, 6, 7, 15, 14, 15, 12, 14, 12, 13, 6, 15, 14, 13, 0, 1, 5, 6, 14, 3, 4, 14, 5, 14, 4, 3, 13, 1, 3, 14, 13, 3, 1, 2 ],
+				"vertices": [ 58.5, 17.11, 58.5, -11.65, 58.5, -57.5, 13.69, -57.5, -17.12, -57.5, -58.5, -57.5, -58.49, -10.83, -58.49, 17.11, -58.5, 57.5, -17.53, 57.5, 11.23, 57.5, 58.5, 57.5, 12.46, 17.11, 13.28, -10.01, -17.12, -10.42, -17.94, 17.52 ],
+				"hull": 12,
+				"edges": [ 16, 18, 18, 20, 20, 22, 14, 16, 10, 12, 12, 14, 4, 2, 2, 0, 0, 22, 8, 10, 4, 6, 6, 8, 20, 24, 26, 6, 28, 8, 28, 12, 14, 30, 30, 18, 24, 0, 26, 2, 30, 24, 28, 26, 30, 28, 24, 26 ],
+				"width": 117,
+				"height": 115
+			}
+		},
+		"hengdai_hong": {
+			"hong": {
+				"name": "hengdai_hong",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0.49857, 1, 0, 1, 0, 0, 0.49857, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 56.81, -17.93, 1.65, -17.93, -53.18, -17.93, -53.18, 15.06, 1.65, 15.06, 56.81, 15.06 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4, 8, 2 ],
+				"width": 110,
+				"height": 33
+			}
+		},
+		"huudei_hong": {
+			"hong": {
+				"name": "huudei_hong",
+				"type": "mesh",
+				"uvs": [ 1, 0.51021, 1, 1, 0.48849, 1, 0, 1, 0, 0.5201, 0, 0, 0.49391, 0, 1, 0, 0.48845, 0.51527 ],
+				"triangles": [ 6, 7, 0, 8, 5, 6, 8, 6, 0, 4, 5, 8, 2, 3, 4, 1, 2, 8, 2, 4, 8, 1, 8, 0 ],
+				"vertices": [ 35.23, -4.09, 35.23, -26.62, -7.73, -26.62, -48.76, -26.62, -48.76, -4.54, -48.76, 19.37, -7.27, 19.37, 35.23, 19.37, -7.73, -4.32 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 2, 0, 0, 14, 10, 12, 12, 14, 0, 16, 16, 8, 12, 16, 2, 4, 4, 6, 16, 4 ],
+				"width": 84,
+				"height": 46
+			}
+		},
+		"shang_hong": {
+			"hong": {
+				"name": "shang_hong",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 57.19, -49.19, -51.8, -49.19, -51.8, 2.8, 57.19, 2.8 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 109,
+				"height": 52
+			}
+		},
+		"shudai_hong": {
+			"hong": {
+				"name": "shudai_hong",
+				"type": "mesh",
+				"uvs": [ 1, 0.51521, 1, 1, 0, 1, 0, 0.51201, 0, 0, 1, 0 ],
+				"triangles": [ 3, 4, 5, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ -3.05, -19.56, -54.41, -17.95, -53.38, 15.02, -1.68, 13.4, 52.56, 11.71, 51.53, -21.27 ],
+				"hull": 6,
+				"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10, 6, 0 ],
+				"width": 33,
+				"height": 106
+			}
+		},
+		"xia_hong": {
+			"hong": {
+				"name": "xia_hong",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 60.92, -17.20999, -42.07, -17.20999, -42.07, 46.78, 60.92, 46.78 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 103,
+				"height": 64
+			}
+		},
+		"you_hong": {
+			"hong": {
+				"name": "you_hong",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 14.52, -61.34, -54.47, -61.34, -54.47, 46.65, 14.52, 46.65 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 69,
+				"height": 108
+			}
+		},
+		"zuo_hong": {
+			"hong": {
+				"name": "zuo_hong",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 103.1, -58.23, -5.89, -58.23, -5.89, 49.76, 103.1, 49.76 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 109,
+				"height": 108
+			}
+		}
+	},
+	"huang": {
+		"hengdai_huang": {
+			"huang": {
+				"name": "hengdai_huang",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 55.43, -21.93, -53.56, -21.93, -53.56, 12.06, 55.43, 12.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 109,
+				"height": 34
+			}
+		},
+		"huang": {
+			"huang": {
+				"name": "he_huang",
+				"type": "mesh",
+				"uvs": [ 1, 0.33744, 1, 0.57213, 1, 1, 0.62084, 1, 0.35114, 1, 0, 1, 0, 0.57935, 0, 0.33744, 0, 0, 0.35114, 0, 0.58972, 0, 1, 0, 0.3546, 0.35955, 0.61702, 0.3337, 0.3546, 0.57213, 0.61392, 0.58657 ],
+				"triangles": [ 13, 10, 11, 7, 8, 9, 13, 11, 0, 13, 12, 9, 13, 9, 10, 7, 9, 12, 15, 14, 12, 13, 0, 1, 6, 7, 12, 6, 12, 14, 13, 15, 12, 15, 13, 1, 4, 5, 6, 14, 4, 6, 4, 14, 15, 2, 3, 15, 4, 15, 3, 2, 15, 1 ],
+				"vertices": [ 59.51, 16.32, 59.51, -10.18999, 59.51, -58.53, 14.76, -58.53, -17.04999, -58.53, -58.48, -58.53, -58.48, -11, -58.48, 16.32, -58.48, 54.46, -17.04999, 54.46, 11.09, 54.46, 59.51, 54.46, -16.64, 16.32, 13.13, 17.14, -16.64, -10.18999, 13.95, -11.82 ],
+				"hull": 12,
+				"edges": [ 10, 12, 28, 12, 4, 2, 30, 2, 8, 10, 28, 8, 4, 6, 6, 8, 30, 6, 16, 18, 24, 18, 18, 20, 20, 22, 26, 20, 2, 0, 0, 22, 26, 0, 12, 14, 14, 16, 24, 14, 24, 26, 24, 28, 28, 30, 30, 26 ],
+				"width": 118,
+				"height": 113
+			}
+		},
+		"hudie_huang": {
+			"huang": {
+				"name": "hudie_huang",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 36.23, -31.62, -47.76, -31.62, -47.76, 14.37, 36.23, 14.37 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 84,
+				"height": 46
+			}
+		},
+		"shang_huang": {
+			"huang": {
+				"name": "shang_huang",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 53.15, -44.09, -49.84, -44.09, -49.84, 2.9, 53.15, 2.9 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 103,
+				"height": 47
+			}
+		},
+		"shudai_huang": {
+			"huang": {
+				"name": "shudai_huang",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -55.63, -16.77, -54.6, 16.20999, 49.34, 12.96, 48.31, -20.02 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 33,
+				"height": 104
+			}
+		},
+		"xia_huang": {
+			"huang": {
+				"name": "xia_huang",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 58.37, -9.62, -44.62, -9.62, -41.56, 48.31, 61.43, 48.31 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 103,
+				"height": 61
+			}
+		},
+		"you_huang": {
+			"huang": {
+				"name": "you_huang",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 9.77, -53.53, -56.22, -53.53, -56.22, 49.46, 9.77, 49.46 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 66,
+				"height": 103
+			}
+		},
+		"zuo_huang": {
+			"huang": {
+				"name": "zuo_huang",
+				"type": "mesh",
+				"uvs": [ 0.45465, 0.28758, 0.39696, 0.6577, 0.16624, 1, 0, 1, 0, 0, 0.2393, 0 ],
+				"triangles": [ 0, 4, 5, 1, 3, 4, 0, 1, 4, 2, 3, 1 ],
+				"vertices": [ 46.07, 24.46, 39.73, -14.02, 14.35, -49.62, -3.93, -49.62, -3.93, 54.37, 22.39, 54.37 ],
+				"hull": 6,
+				"edges": [ 6, 8, 8, 10, 10, 0, 0, 2, 4, 6, 2, 4 ],
+				"width": 110,
+				"height": 104
+			}
+		}
+	},
+	"lan": {
+		"he_lan": {
+			"lan": {
+				"name": "he_lan",
+				"type": "mesh",
+				"uvs": [ 1, 0.33378, 1, 0.59574, 1, 1, 0.60811, 1, 0.35113, 1, 0, 1, 0, 0.59255, 0, 0.33378, 0, 0, 0.35113, 0, 0.59281, 0, 1, 0, 0.35725, 0.33378, 0.59893, 0.33378, 0.35114, 0.59367, 0.60199, 0.59447 ],
+				"triangles": [ 7, 8, 9, 12, 9, 10, 7, 9, 12, 13, 10, 11, 12, 10, 13, 13, 11, 0, 14, 6, 7, 12, 14, 7, 15, 13, 0, 12, 13, 15, 14, 12, 15, 15, 0, 1, 5, 6, 14, 4, 5, 14, 4, 14, 15, 3, 15, 1, 4, 15, 3, 3, 1, 2 ],
+				"vertices": [ 60.45, 17.31, 60.45, -12.29, 60.45, -57.97, 14.21, -57.97, -16.1, -57.97, -57.54, -57.97, -57.54, -11.92, -57.54, 17.31, -57.54, 55.02, -16.1, 55.02, 12.4, 55.02, 60.45, 55.02, -15.38, 17.31, 13.13, 17.31, -16.1, -12.05, 13.49, -12.14 ],
+				"hull": 12,
+				"edges": [ 14, 16, 0, 22, 10, 12, 12, 14, 0, 2, 2, 4, 16, 18, 24, 14, 18, 24, 18, 20, 20, 22, 0, 26, 26, 24, 20, 26, 28, 12, 8, 10, 28, 8, 2, 30, 30, 28, 4, 6, 6, 8, 30, 6, 24, 28, 26, 30 ],
+				"width": 118,
+				"height": 113
+			}
+		},
+		"hengdai_lan": {
+			"lan": {
+				"name": "hengdai_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 56.81, -16.93, -53.18, -16.93, -53.18, 17.06, 56.81, 17.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 110,
+				"height": 34
+			}
+		},
+		"hudie_lan": {
+			"lan": {
+				"name": "hudie_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 35.23, -26.62, -48.76, -26.62, -48.76, 19.37, 35.23, 19.37 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 84,
+				"height": 46
+			}
+		},
+		"shang_lan": {
+			"lan": {
+				"name": "shang_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 57.19, -49.19, -51.8, -49.19, -51.8, 2.8, 57.19, 2.8 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 109,
+				"height": 52
+			}
+		},
+		"shudai_lan": {
+			"lan": {
+				"name": "shudai_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -53.94, -17.98, -52.9, 14.99, 50.03, 11.77, 49, -21.2 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 33,
+				"height": 103
+			}
+		},
+		"xia_lan": {
+			"lan": {
+				"name": "xia_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 60.92, -16.20999, -42.07, -16.20999, -42.07, 46.78, 60.92, 46.78 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 103,
+				"height": 63
+			}
+		},
+		"you_lan": {
+			"lan": {
+				"name": "you_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 14.52, -62.34, -101.47, -62.34, -101.47, 51.65, 14.52, 51.65 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 116,
+				"height": 114
+			}
+		},
+		"zuo_lan": {
+			"lan": {
+				"name": "zuo_lan",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 88.1, -57.23, -4.89, -57.23, -4.89, 49.76, 88.1, 49.76 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 93,
+				"height": 107
+			}
+		}
+	},
+	"lv": {
+		"he_lv": {
+			"lv": {
+				"name": "he_lv",
+				"type": "mesh",
+				"uvs": [ 1, 0.32088, 1, 0.58647, 1, 1, 0.61718, 1, 0.35242, 1, 0, 1, 0, 0.59082, 0, 0.32305, 0, 0, 0.34616, 0, 0.59842, 0, 1, 0, 0.35032, 0.32229, 0.6109, 0.32174, 0.34823, 0.58931, 0.61503, 0.58814 ],
+				"triangles": [ 13, 10, 11, 0, 13, 11, 12, 9, 10, 12, 10, 13, 7, 8, 9, 7, 9, 12, 15, 13, 0, 1, 15, 0, 14, 7, 12, 14, 12, 13, 15, 14, 13, 6, 7, 14, 5, 6, 14, 4, 14, 15, 5, 14, 4, 3, 15, 1, 4, 15, 3, 3, 1, 2 ],
+				"vertices": [ 60.45, 13.76, 60.45, -16.24, 60.45, -62.97, 15.28, -62.97, -15.95, -62.97, -57.54, -62.97, -57.54, -16.73, -57.54, 13.52, -57.54, 50.02, -16.69, 50.02, 13.07, 50.02, 60.45, 50.02, -16.2, 13.6, 14.54, 13.67, -16.45, -16.56, 15.03, -16.43 ],
+				"hull": 12,
+				"edges": [ 14, 16, 0, 22, 10, 12, 12, 14, 0, 2, 2, 4, 16, 18, 24, 14, 18, 24, 18, 20, 20, 22, 0, 26, 26, 24, 20, 26, 28, 12, 8, 10, 28, 8, 2, 30, 30, 28, 4, 6, 6, 8, 30, 6, 24, 28, 26, 30 ],
+				"width": 118,
+				"height": 113
+			}
+		},
+		"hengdai_lv": {
+			"lv": {
+				"name": "hengdai_lv",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 60.26, -20.93, -53.73, -20.93, -53.73, 11.06, 60.26, 11.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 114,
+				"height": 32
+			}
+		},
+		"hudie_lv": {
+			"lv": {
+				"name": "hudie_lv",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 35.23, -30.62, -48.76, -30.62, -48.76, 15.37, 35.23, 15.37 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 84,
+				"height": 46
+			}
+		},
+		"shang_lv": {
+			"lv": {
+				"name": "shang_lv",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 55.19, -49.19, -47.8, -49.19, -47.8, -1.19, 55.19, -1.19 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 103,
+				"height": 48
+			}
+		},
+		"shudai_lv": {
+			"lv": {
+				"name": "shudai_lv",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -62.69, -17.68, -61.65, 15.3, 46.28, 11.92, 45.25, -21.05 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 33,
+				"height": 108
+			}
+		},
+		"xia_lv": {
+			"lv": {
+				"name": "xia_lv",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 60.92, -16.20999, -41.07, -16.20999, -41.07, 46.78, 60.92, 46.78 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 102,
+				"height": 63
+			}
+		},
+		"you_lv": {
+			"lv": {
+				"name": "you_lv",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0.89511, 1, 0.30492, 0.44955, 0.65229, 0, 1, 0 ],
+				"triangles": [ 1, 3, 4, 2, 3, 1, 1, 4, 0 ],
+				"vertices": [ 13.52, -61.34, 2.82, -61.34, -57.37, -2.99, -21.94, 44.65, 13.52, 44.65 ],
+				"hull": 5,
+				"edges": [ 0, 8, 0, 2, 2, 4, 6, 8, 4, 6 ],
+				"width": 102,
+				"height": 106
+			}
+		},
+		"zuo_lv": {
+			"lv": {
+				"name": "zuo_lv",
+				"type": "mesh",
+				"uvs": [ 0.45218, 0.22582, 0.44052, 0.41932, 0.38222, 0.60975, 0.14317, 1, 0, 1, 0, 0, 0.23062, 0 ],
+				"triangles": [ 1, 6, 0, 1, 5, 6, 2, 4, 5, 1, 2, 5, 3, 4, 2 ],
+				"vertices": [ 47.46, 23.47, 46.08, 1.8, 39.2, -19.52, 11, -63.23, -5.89, -63.23, -5.89, 48.76, 21.32, 48.76 ],
+				"hull": 7,
+				"edges": [ 8, 10, 10, 12, 12, 0, 0, 2, 2, 4, 6, 8, 4, 6 ],
+				"width": 118,
+				"height": 112
+			}
+		}
+	},
+	"zi": {
+		"he_zi": {
+			"zi": {
+				"name": "he_zi",
+				"type": "mesh",
+				"uvs": [ 1, 0.32, 1, 0.5964, 1, 1, 0.61258, 1, 0.34486, 1, 0, 1, 0, 0.5964, 0, 0.32318, 0, 0, 0.33573, 0, 0.60041, 0, 1, 0, 0.33877, 0.5964, 0.60346, 0.5964, 0.34482, 0.32209, 0.60349, 0.32126 ],
+				"triangles": [ 15, 10, 11, 0, 15, 11, 14, 9, 10, 14, 10, 15, 7, 8, 9, 7, 9, 14, 15, 0, 1, 12, 7, 14, 13, 14, 15, 13, 15, 1, 12, 14, 13, 6, 7, 12, 5, 6, 12, 4, 12, 13, 5, 12, 4, 3, 13, 1, 4, 13, 3, 3, 1, 2 ],
+				"vertices": [ 60.45, 13.86, 60.45, -17.36, 60.45, -62.97, 14.74, -62.97, -16.84, -62.97, -57.54, -62.97, -57.54, -17.36, -57.54, 13.5, -57.54, 50.02, -17.92, 50.02, 13.3, 50.02, 60.45, 50.02, -17.56, -17.36, 13.66, -17.36, -16.85, 13.63, 13.66, 13.72 ],
+				"hull": 12,
+				"edges": [ 14, 16, 0, 22, 10, 12, 12, 14, 0, 2, 2, 4, 8, 10, 24, 12, 8, 24, 2, 26, 26, 24, 4, 6, 6, 8, 26, 6, 16, 18, 28, 14, 18, 28, 18, 20, 20, 22, 0, 30, 30, 28, 20, 30, 28, 24, 30, 26 ],
+				"width": 118,
+				"height": 113
+			}
+		},
+		"hengdai_zi": {
+			"zi": {
+				"name": "hengdai_zi",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 58.99, -21.93, -55, -21.93, -55, 11.06, 58.99, 11.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 114,
+				"height": 33
+			}
+		},
+		"hudie_zi": {
+			"zi": {
+				"name": "hudie_zi",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 35.23, -31.62, -48.76, -31.62, -48.76, 14.37, 35.23, 14.37 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 84,
+				"height": 46
+			}
+		},
+		"shang_zi": {
+			"zi": {
+				"name": "shang_zi",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 55.19, -49.19, -47.8, -49.19, -47.8, -0.19, 55.19, -0.19 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 103,
+				"height": 49
+			}
+		},
+		"shudai_zi": {
+			"zi": {
+				"name": "shudai_zi",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -61.16, -17.14, -60.13, 15.83, 46.81, 12.49, 45.77, -20.49 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 33,
+				"height": 107
+			}
+		},
+		"xia_zi": {
+			"zi": {
+				"name": "xia_zi",
+				"type": "mesh",
+				"uvs": [ 0.15796, 0.52691, 0.42583, 0.37429, 0.64851, 0.38425, 1, 0.81887, 1, 1, 0, 1 ],
+				"triangles": [ 0, 1, 2, 2, 3, 0, 3, 5, 0, 4, 5, 3 ],
+				"vertices": [ -30.69, 33.4, -1.22, 49.73, 23.26, 48.67, 61.92, 2.16, 61.92, -17.20999, -48.07, -17.20999 ],
+				"hull": 6,
+				"edges": [ 8, 10, 10, 0, 0, 2, 2, 4, 8, 6, 4, 6 ],
+				"width": 110,
+				"height": 107
+			}
+		},
+		"you_zi": {
+			"zi": {
+				"name": "you_zi",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0.94, 1, 0.38462, 0.42026, 0.70373, 0, 1, 0 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 1, 4, 0 ],
+				"vertices": [ 14.52, -66.33999, 7.5, -66.33999, -57.47, -1.99, -20.14, 44.65, 14.52, 44.65 ],
+				"hull": 5,
+				"edges": [ 0, 8, 0, 2, 4, 2, 6, 8, 4, 6 ],
+				"width": 117,
+				"height": 111
+			}
+		},
+		"zuo_zi": {
+			"zi": {
+				"name": "zuo_zi",
+				"type": "mesh",
+				"uvs": [ 0.63292, 0.26735, 0.62416, 0.39605, 0.576, 0.6399, 0.217, 1, 0, 1, 0, 0, 0.3177, 0 ],
+				"triangles": [ 1, 6, 0, 2, 6, 1, 2, 4, 5, 2, 5, 6, 3, 4, 2 ],
+				"vertices": [ 47, 20.42, 46.28, 6.78, 42.33, -19.06, 12.9, -57.23, -4.89, -57.23, -4.89, 48.76, 21.15, 48.76 ],
+				"hull": 7,
+				"edges": [ 8, 10, 6, 8, 6, 4, 4, 2, 2, 0, 10, 12, 0, 12 ],
+				"width": 82,
+				"height": 106
+			}
+		}
+	},
+	"zong": {
+		"he_zong": {
+			"zong": {
+				"name": "he_zong",
+				"type": "mesh",
+				"uvs": [ 1, 0.33037, 1, 0.59145, 1, 1, 0.62044, 1, 0.35906, 1, 0, 1, 0, 0.59145, 0, 0.32246, 0, 0, 0.36284, 0, 0.60528, 0, 1, 0, 0.35906, 0.3253, 0.61283, 0.32731, 0.35906, 0.59145, 0.62044, 0.59145 ],
+				"triangles": [ 12, 7, 8, 9, 12, 8, 13, 10, 11, 12, 9, 10, 13, 12, 10, 13, 11, 0, 6, 7, 12, 14, 6, 12, 14, 12, 13, 15, 13, 0, 14, 13, 15, 15, 0, 1, 5, 6, 14, 4, 14, 15, 5, 14, 4, 2, 3, 15, 4, 15, 3, 2, 15, 1 ],
+				"vertices": [ 55.45, 12.69, 55.45, -16.79999, 55.45, -62.97, 10.66, -62.97, -20.17, -62.97, -62.54, -62.97, -62.54, -16.79999, -62.54, 13.59, -62.54, 50.02, -19.71999, 50.02, 8.88, 50.02, 55.45, 50.02, -20.17, 13.26, 9.77, 13.04, -20.17, -16.79999, 10.66, -16.79999 ],
+				"hull": 12,
+				"edges": [ 14, 16, 0, 22, 10, 12, 12, 14, 0, 2, 2, 4, 16, 18, 24, 14, 18, 24, 18, 20, 20, 22, 0, 26, 26, 24, 20, 26, 28, 12, 8, 10, 28, 8, 2, 30, 30, 28, 4, 6, 6, 8, 30, 6, 24, 28, 26, 30 ],
+				"width": 118,
+				"height": 113
+			}
+		},
+		"hengdai_z": {
+			"zong": {
+				"name": "hengdai_z",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 54.81, -22.93, -58.18, -22.93, -58.18, 11.06, 54.81, 11.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 113,
+				"height": 34
+			}
+		},
+		"hudie_z": {
+			"zong": {
+				"name": "hudie_z",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 31.23, -31.62, -52.76, -31.62, -52.76, 14.37, 31.23, 14.37 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 84,
+				"height": 46
+			}
+		},
+		"shang_z": {
+			"zong": {
+				"name": "shang_z",
+				"type": "mesh",
+				"uvs": [ 1, 0.19253, 0.46486, 0.45399, 0.2013, 0.24758, 0.08533, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 4, 1, 2, 0, 1, 4 ],
+				"vertices": [ 58.19, -22.95, -4.94, -52.49, -36.04, -29.17, -49.73, -1.19, 58.19, -1.19 ],
+				"hull": 5,
+				"edges": [ 6, 8, 6, 4, 4, 2, 0, 8, 2, 0 ],
+				"width": 118,
+				"height": 113
+			}
+		},
+		"shudai_z": {
+			"zong": {
+				"name": "shudai_z",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -60.91, -7.94, -59.85, 26.04, 49.09, 22.63, 48.03, -11.34 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 34,
+				"height": 109
+			}
+		},
+		"xia_z": {
+			"zong": {
+				"name": "xia_z",
+				"type": "mesh",
+				"uvs": [ 0.44076, 0.35975, 0.66232, 0.42101, 1, 0.76924, 1, 1, 0, 1, 0.17172, 0.52097 ],
+				"triangles": [ 1, 2, 3, 5, 0, 1, 3, 5, 1, 4, 5, 3 ],
+				"vertices": [ -0.02, 51.29, 24.12, 44.74, 60.92, 7.48, 60.92, -17.20999, -48.07, -17.20999, -29.35, 34.04 ],
+				"hull": 6,
+				"edges": [ 6, 8, 8, 10, 10, 0, 0, 2, 6, 4, 2, 4 ],
+				"width": 109,
+				"height": 107
+			}
+		},
+		"you_Z": {
+			"zong": {
+				"name": "you_Z",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0.41026, 0.52045, 0.40421, 0.31124, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 10.52, -61.34, -54.93, -10.51, -55.61, 11.66, 10.52, 44.65 ],
+				"hull": 4,
+				"edges": [ 0, 6, 0, 2, 2, 4, 4, 6 ],
+				"width": 111,
+				"height": 106
+			}
+		},
+		"zuo_z": {
+			"zong": {
+				"name": "zuo_z",
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 44.1, -56.23, -4.89, -56.23, -4.89, 48.76, 44.1, 48.76 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 49,
+				"height": 105
+			}
+		}
+	}
+},
+"animations": {
+	"Ani_SX_Other65_touch": {
+		"slots": {
+			"FX_liwu_Touch_/FX_liwu_touch_00001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "FX_other66_Touch_G/FX_other66_Touch__00001" },
+					{ "time": 0.3333, "name": "FX_other66_Touch_G/FX_other66_Touch__00002" },
+					{ "time": 0.3666, "name": "FX_other66_Touch_G/FX_other66_Touch__00003" },
+					{ "time": 0.4, "name": "FX_other66_Touch_G/FX_other66_Touch__00004" },
+					{ "time": 0.4333, "name": "FX_other66_Touch_G/FX_other66_Touch__00005" },
+					{ "time": 0.4666, "name": "FX_other66_Touch_G/FX_other66_Touch__00006" },
+					{ "time": 0.5, "name": "FX_other66_Touch_G/FX_other66_Touch__00007" },
+					{ "time": 0.5333, "name": "FX_other66_Touch_G/FX_other66_Touch__00008" },
+					{ "time": 0.5666, "name": "FX_other66_Touch_G/FX_other66_Touch__00009" },
+					{ "time": 0.6333, "name": "FX_other66_Touch_G/FX_other66_Touch__00010" },
+					{ "time": 0.7, "name": "FX_other66_Touch_G/FX_other66_Touch__00011" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"he_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"he_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"he_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"he_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"he_zong": {
+				"attachment": [
+					{ "time": 0, "name": "zong" },
+					{ "time": 0.3, "name": null }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" }
+				]
+			},
+			"hengdai_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hengdai_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hengdai_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hengdai_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hengdai_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hengdai_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"hudie_huang": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "huang" },
+					{ "time": 0.7333, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hudie_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hudie_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hudie_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"hudie_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"huudei_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shang_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shang_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shang_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shang_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shang_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shang_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shudai_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shudai_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shudai_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shudai_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shudai_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shudai_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"xia_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"xia_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"xia_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"xia_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"xia_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"xia_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"you_Z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"you_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"you_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"you_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"you_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"you_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"zuo_hong": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3, "name": "hong" },
+					{ "time": 0.5333, "name": "hong" },
+					{ "time": 0.7333, "name": "hong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"zuo_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"zuo_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"zuo_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"zuo_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"zuo_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"he": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"hengdai": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": -26.26 },
+					{ "time": 0.7333, "angle": -24.45 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.5333, "x": -17.87, "y": -19.86 },
+					{ "time": 0.7333, "x": -22.33, "y": -22.42 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1 },
+					{ "time": 0.5333, "x": 1.2, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1.2, "y": 1 }
+				]
+			},
+			"hudie": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": 21.17 },
+					{ "time": 0.7333, "angle": 23.87 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.5333, "x": -33.2, "y": 43.57 },
+					{ "time": 0.7333, "x": -34.35, "y": 46.53 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"shang": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": -10.05 },
+					{ "time": 0.7333, "angle": -12.75 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 2.22 },
+					{ "time": 0.5333, "x": 2.68, "y": 13.77 },
+					{ "time": 0.7333, "x": 2.68, "y": 18.03 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"shudai": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": -20.96 },
+					{ "time": 0.7333, "angle": -24.14 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.5333, "x": 37.35, "y": 2.12 },
+					{ "time": 0.7333, "x": 42.98, "y": 0.38 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1 },
+					{ "time": 0.5333, "x": 1.2, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1.2, "y": 1 }
+				]
+			},
+			"xia": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": -14.37 },
+					{ "time": 0.7333, "angle": -15.59 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": -2.22 },
+					{ "time": 0.5333, "x": -0.7, "y": -13.83 },
+					{ "time": 0.7333, "x": -2.07, "y": -17.58 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"you": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": -7.51 },
+					{ "time": 0.7333, "angle": -11.12 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 3.33, "y": 0 },
+					{ "time": 0.5333, "x": 14.43, "y": -5.41 },
+					{ "time": 0.7333, "x": 16.53, "y": -5.69 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"zuo": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.5333, "angle": -3.17 },
+					{ "time": 0.7333, "angle": -5.87 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": -3.89, "y": 0 },
+					{ "time": 0.5333, "x": -12.18, "y": -0.51 },
+					{ "time": 0.7333, "x": -18.11, "y": 0.47 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"FX_liwu_touch": {
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			}
+		},
+		"ffd": {
+			"hong": {
+				"he_hong": {
+					"hong": [
+						{ "time": 0 },
+						{
+							"time": 0.2333,
+							"offset": 4,
+							"vertices": [ -4.29623, 3.75359, 0, 0, 0, 0, 4.29623, 3.75359, 0, 0, 0, 0, 4.29623, -3.75359, 0, 0, 0, 0, -4.29623, -3.75359, 4.30799, 2.04774, 4.54611, -2.04718, -4.26419, -2.10923, -4.50231, 2.1098 ]
+						}
+					]
+				},
+				"hengdai_hong": {
+					"hong": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 0.3 },
+						{
+							"time": 0.5333,
+							"offset": 3,
+							"vertices": [ -11.34946, 0, 0, 0, 0, 1.0E-5, -11.34946 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.7333,
+							"offset": 3,
+							"vertices": [ -11.34946, 0, 0, 0, 0, 1.0E-5, -11.34946 ]
+						}
+					]
+				},
+				"huudei_hong": {
+					"hong": [
+						{ "time": 0 }
+					]
+				},
+				"shang_hong": {
+					"hong": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 0.3, "curve": "stepped" },
+						{ "time": 0.5333, "curve": "stepped" },
+						{ "time": 0.7333 }
+					]
+				},
+				"shudai_hong": {
+					"hong": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 0.3 },
+						{
+							"time": 0.5333,
+							"vertices": [ -0.28952, -9.1871, 0, 0, 0, 0, -0.29182, -9.2597 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -0.28952, -9.1871, 0, 0, 0, 0, -0.29182, -9.2597 ]
+						}
+					]
+				},
+				"xia_hong": {
+					"hong": [
+						{ "time": 0 }
+					]
+				},
+				"you_hong": {
+					"hong": [
+						{ "time": 0 }
+					]
+				},
+				"zuo_hong": {
+					"hong": [
+						{ "time": 0 },
+						{
+							"time": 0.3,
+							"vertices": [ 0.10165, 0.43472, 0.25901, -0.2404, -0.40992, -0.3963, -0.56727, 0.27882 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -20.58741, -2.15234, -19.97073, 9.38343, -8.54079, 8.77243, -9.15745, -2.76335 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -20.58741, -2.15234, -19.97073, 9.38343, -8.54079, 8.77243, -9.15745, -2.76335 ]
+						}
+					]
+				}
+			},
+			"huang": {
+				"huang": {
+					"huang": [
+						{ "time": 0 },
+						{
+							"time": 0.2333,
+							"offset": 4,
+							"vertices": [ -5.01573, 4.54555, 0, 0, 0, 0, 5.01573, 4.54555, 0, 0, 0, 0, 5.01573, -4.54579, 0, 0, 0, 0, -5.01573, -4.54579, -3.59831, 2.8034, 3.39819, 2.97263, -3.59829, -2.69335, 3.58988, -3.03162 ]
+						}
+					]
+				}
+			},
+			"lan": {
+				"he_lan": {
+					"lan": [
+						{ "time": 0 },
+						{
+							"time": 0.2333,
+							"offset": 4,
+							"vertices": [ -4.56821, 3.60253, 0, 0, 0, 0, 4.56821, 3.60253, 0, 0, 0, 0, 4.56821, -3.60277, 0, 0, 0, 0, -4.56821, -3.60277, -3.3416, 3.43581, 3.38082, 3.43581, -3.51136, -3.38341, 3.46576, -3.40446 ]
+						}
+					]
+				},
+				"xia_lan": {
+					"lan": [
+						{
+							"time": 0.5333,
+							"vertices": [ 2.95345, 0, 2.95345, 0, 2.95345, 0, 2.95345 ]
+						}
+					]
+				}
+			},
+			"lv": {
+				"he_lv": {
+					"lv": [
+						{ "time": 0 },
+						{
+							"time": 0.2333,
+							"offset": 4,
+							"vertices": [ -3.69017, 4.59385, 0, 0, 0, 0, 3.69018, 4.59385, 0, 0, 0, 0, 3.69018, -4.59411, 0, 0, 0, 0, -3.69017, -4.59411, -3.71539, 3.58794, 3.68902, 3.60283, -3.77463, -3.58335, 3.80628, -3.55215 ]
+						}
+					]
+				}
+			},
+			"zi": {
+				"he_zi": {
+					"zi": [
+						{ "time": 0 },
+						{
+							"time": 0.2333,
+							"offset": 4,
+							"vertices": [ -7.42594, 4.55832, 0, 0, 0, 0, 7.42594, 4.55832, 0, 0, 0, 0, 7.42594, -4.55872, 0, 0, 0, 0, -7.42594, -4.55872, -4.18199, -3.49337, 4.08336, -3.49337, -3.99323, 3.50927, 4.08434, 3.53021 ]
+						}
+					]
+				}
+			},
+			"zong": {
+				"he_zong": {
+					"zong": [
+						{ "time": 0 },
+						{
+							"time": 0.2333,
+							"offset": 4,
+							"vertices": [ -6.83327, 5.60874, 0, 0, 0, 0, 6.83327, 5.60874, 0, 0, 0, 0, 6.83327, -5.60905, 0, 0, 0, 0, -6.83327, -5.60905, -4.30139, 3.70153, 4.18466, 3.6461, -4.30166, -3.63811, 4.43919, -3.63811 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "he_zi", "offset": 3 }
+				]
+			},
+			{
+				"time": 0.3,
+				"offsets": [
+					{ "slot": "you_huang", "offset": -11 }
+				]
+			}
+		]
+	},
+	"idle": {
+		"slots": {
+			"FX_liwu_Touch_/FX_liwu_touch_00001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"he_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"he_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"he_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"he_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"he_zong": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"hengdai_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"hengdai_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"hengdai_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"hengdai_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"hengdai_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"hengdai_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"hudie_huang": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"hudie_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"hudie_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"hudie_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"hudie_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"huudei_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"shang_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"shang_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"shang_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"shang_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"shang_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"shang_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"shudai_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"shudai_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"shudai_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"shudai_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"shudai_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"shudai_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"xia_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"xia_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"xia_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"xia_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"xia_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"xia_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"you_Z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"you_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"you_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"you_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"you_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"you_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"zuo_hong": {
+				"attachment": [
+					{ "time": 0, "name": "hong" }
+				]
+			},
+			"zuo_huang": {
+				"attachment": [
+					{ "time": 0, "name": "huang" }
+				]
+			},
+			"zuo_lan": {
+				"attachment": [
+					{ "time": 0, "name": "lan" }
+				]
+			},
+			"zuo_lv": {
+				"attachment": [
+					{ "time": 0, "name": "lv" }
+				]
+			},
+			"zuo_z": {
+				"attachment": [
+					{ "time": 0, "name": "zong" }
+				]
+			},
+			"zuo_zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"zuo": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"you": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"xia": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shudai": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shang": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"hudie": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"hengdai": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"he": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.89, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"FX_liwu_touch": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"huang": {
+				"hengdai_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"hudie_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"shang_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"shudai_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"xia_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"you_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				},
+				"zuo_huang": {
+					"huang": [
+						{ "time": 0 }
+					]
+				}
+			},
+			"lv": {
+				"he_lv": {
+					"lv": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998 ]
+						}
+					]
+				},
+				"shang_lv": {
+					"lv": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998 ]
+						}
+					]
+				},
+				"shudai_lv": {
+					"lv": [
+						{
+							"time": 0,
+							"vertices": [ 5.82429, -0.18343, 5.82429, -0.18343, 5.82429, -0.18343, 5.82429, -0.18343 ]
+						}
+					]
+				},
+				"xia_lv": {
+					"lv": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998 ]
+						}
+					]
+				},
+				"you_lv": {
+					"lv": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998 ]
+						}
+					]
+				},
+				"zuo_lv": {
+					"lv": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998, 0, 3.83998 ]
+						}
+					]
+				}
+			},
+			"zi": {
+				"he_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999 ]
+						}
+					]
+				},
+				"hengdai_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 4.20005, 0, 4.20005, 0, 4.20005, 0, 4.20005 ]
+						}
+					]
+				},
+				"hudie_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 6.99996, 0, 6.99996, 0, 6.99996, 0, 6.99996 ]
+						}
+					]
+				},
+				"shang_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999 ]
+						}
+					]
+				},
+				"shudai_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"vertices": [ 6.20861, -2.99693, 6.20861, -2.99693, 6.20861, -2.99693, 6.20861, -2.99693 ]
+						}
+					]
+				},
+				"xia_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999 ]
+						}
+					]
+				},
+				"you_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999 ]
+						}
+					]
+				},
+				"zuo_zi": {
+					"zi": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999, 0, 5.59999 ]
+						}
+					]
+				}
+			},
+			"zong": {
+				"he_zong": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998 ]
+						}
+					]
+				},
+				"hengdai_z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 5.84999, 5.20001, 5.84999, 5.20001, 5.84999, 5.20001, 5.84999, 5.20001 ]
+						}
+					]
+				},
+				"hudie_z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 4.54997, 3.89999, 4.54997, 3.89999, 4.54997, 3.89999, 4.54997, 3.89999 ]
+						}
+					]
+				},
+				"shang_z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998 ]
+						}
+					]
+				},
+				"shudai_z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 2.92068, -10.49725, 2.92068, -10.49725, 2.92068, -10.49725, 2.92068, -10.49725 ]
+						}
+					]
+				},
+				"xia_z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998 ]
+						}
+					]
+				},
+				"you_Z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998 ]
+						}
+					]
+				},
+				"zuo_z": {
+					"zong": [
+						{
+							"time": 0,
+							"vertices": [ 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998, 2.6, 4.54998 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

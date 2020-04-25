@@ -1,0 +1,62 @@
+{
+"skeleton": { "hash": "HT6C0l0pqFlR66CinoB31NJPQM0", "spine": "2.1.27", "width": 303, "height": 349, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "FX_SX_Other46_03_01", "bone": "root", "attachment": "images/FX_SX_Other46_03_09" }
+],
+"skins": {
+	"default": {
+		"FX_SX_Other46_03_01": {
+			"images/FX_SX_Other46_03_01": { "x": 8.21, "y": -58.24, "width": 258, "height": 187 },
+			"images/FX_SX_Other46_03_02": { "x": 34.71, "y": -120.24, "width": 307, "height": 343 },
+			"images/FX_SX_Other46_03_03": { "x": 34.21, "y": -118.24, "width": 310, "height": 385 },
+			"images/FX_SX_Other46_03_04": { "x": 31.21, "y": -118.24, "width": 304, "height": 385 },
+			"images/FX_SX_Other46_03_05": { "x": 30.21, "y": -125.24, "width": 300, "height": 371 },
+			"images/FX_SX_Other46_03_06": { "x": 23.71, "y": -136.24, "width": 289, "height": 351 },
+			"images/FX_SX_Other46_03_07": { "x": 26.71, "y": -135.74, "width": 295, "height": 350 },
+			"images/FX_SX_Other46_03_08": { "x": 32.21, "y": -133.74, "width": 306, "height": 352 },
+			"images/FX_SX_Other46_03_09": { "x": 30.71, "y": -136.24, "width": 303, "height": 349 }
+		}
+	}
+},
+"animations": {
+	"FX_SX_Other46_03": {
+		"slots": {
+			"FX_SX_Other46_03_01": {
+				"attachment": [
+					{ "time": 0, "name": "images/FX_SX_Other46_03_01" },
+					{ "time": 0.0666, "name": "images/FX_SX_Other46_03_02" },
+					{ "time": 0.1333, "name": "images/FX_SX_Other46_03_03" },
+					{ "time": 0.2, "name": "images/FX_SX_Other46_03_04" },
+					{ "time": 0.2666, "name": "images/FX_SX_Other46_03_05" },
+					{ "time": 0.3333, "name": "images/FX_SX_Other46_03_06" },
+					{ "time": 0.4, "name": "images/FX_SX_Other46_03_07" },
+					{ "time": 0.4666, "name": "images/FX_SX_Other46_03_08" },
+					{ "time": 0.5333, "name": "images/FX_SX_Other46_03_09" },
+					{ "time": 0.6, "name": "images/FX_SX_Other46_03_09" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

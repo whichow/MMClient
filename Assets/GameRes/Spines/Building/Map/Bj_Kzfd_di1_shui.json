@@ -1,0 +1,184 @@
+{
+"skeleton": { "hash": "JugIWUs1crAt0ZGv1i1XcN1GAiM", "spine": "2.1.27", "width": 142, "height": 558.6, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone8", "parent": "root", "x": -4.26, "y": 548.33 },
+	{ "name": "bone9", "parent": "bone8", "length": 317.59, "x": -3.07, "y": -9.38, "scaleX": 0.918, "rotation": -90 }
+],
+"slots": [
+	{ "name": "FX_shuiliu", "bone": "bone9", "color": "ffffff4e", "attachment": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00019" }
+],
+"skins": {
+	"default": {
+		"FX_shuiliu": {
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00000": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00001": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00002": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00003": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00004": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00005": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00006": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00007": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00008": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00009": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00010": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00011": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00012": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00013": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00014": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00015": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00016": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00017": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00018": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 },
+			"FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00019": { "x": 302.61, "y": 16.24, "rotation": 90, "width": 142, "height": 608 }
+		}
+	}
+},
+"animations": {
+	"fengcheidle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"fengchetouch": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"hushui": {},
+	"qiting_idle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.5 },
+			{ "time": 3 }
+		]
+	},
+	"qiting_touch": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.4666 },
+			{ "time": 2 },
+			{ "time": 3 }
+		]
+	},
+	"shu": {},
+	"shu1": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			},
+			"bone9": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 3 }
+		]
+	},
+	"shuiliu": {
+		"slots": {
+			"FX_shuiliu": {
+				"attachment": [
+					{ "time": 0, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00000" },
+					{ "time": 0.0666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00001" },
+					{ "time": 0.1333, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00002" },
+					{ "time": 0.2, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00003" },
+					{ "time": 0.2666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00004" },
+					{ "time": 0.3333, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00005" },
+					{ "time": 0.4, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00006" },
+					{ "time": 0.4666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00007" },
+					{ "time": 0.5333, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00008" },
+					{ "time": 0.6, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00009" },
+					{ "time": 0.6666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00010" },
+					{ "time": 0.7333, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00011" },
+					{ "time": 0.8, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00012" },
+					{ "time": 0.8666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00013" },
+					{ "time": 0.9333, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00014" },
+					{ "time": 1, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00015" },
+					{ "time": 1.0666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00016" },
+					{ "time": 1.1333, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00017" },
+					{ "time": 1.2, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00018" },
+					{ "time": 1.2666, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00019" },
+					{ "time": 1.3, "name": "FX_shuiliu1/FX_kongdao_shuiliu_idle_01_00019" }
+				]
+			}
+		}
+	},
+	"yun": {}
+}
+}

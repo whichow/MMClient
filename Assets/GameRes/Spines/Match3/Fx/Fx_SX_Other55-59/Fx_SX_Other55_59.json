@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "mhWQBCQt1/1l2cvWK1rY0/oSIK8", "spine": "2.1.27", "width": 146, "height": 146, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Ani_SX_Other54_59_05", "parent": "root", "color": "9b0500ff" }
+],
+"slots": [
+	{
+		"name": "Ani_SX_Other54_59_05",
+		"bone": "Ani_SX_Other54_59_05",
+		"attachment": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_03",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"Ani_SX_Other54_59_05": {
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_1": { "path": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_01", "x": -0.71, "y": 3.14, "width": 146, "height": 146 },
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_02": { "x": 0.13, "y": 1.03, "width": 146, "height": 146 },
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_03": { "x": 0.13, "y": 1.03, "width": 146, "height": 146 },
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_04": { "x": 0.13, "y": 1.03, "width": 146, "height": 146 },
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_05": { "x": 0.13, "y": 1.03, "width": 146, "height": 146 },
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_06": { "x": 0.13, "y": 1.03, "width": 146, "height": 146 },
+			"Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_07": { "x": 0.13, "y": 1.03, "width": 146, "height": 146 }
+		}
+	}
+},
+"animations": {
+	"Fx_SX_Other55_59": {
+		"slots": {
+			"Ani_SX_Other54_59_05": {
+				"attachment": [
+					{ "time": 0, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_1" },
+					{ "time": 0.0333, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_02" },
+					{ "time": 0.0666, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_03" },
+					{ "time": 0.1, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_04" },
+					{ "time": 0.1333, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_05" },
+					{ "time": 0.1666, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_06" },
+					{ "time": 0.2, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_07" },
+					{ "time": 0.3333, "name": "Ani_SX_Other54_59_05/Ani_SX_Other54_59_05_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Ani_SX_Other54_59_05": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

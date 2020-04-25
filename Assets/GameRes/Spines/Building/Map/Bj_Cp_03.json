@@ -1,0 +1,77 @@
+{
+"skeleton": { "hash": "dBh9kU8k9hrqNpY6yGdfWoWdXU4", "spine": "2.1.27", "width": 206, "height": 242, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shuill_00", "parent": "root", "x": 112.96, "y": 100.23 }
+],
+"slots": [
+	{ "name": "shuill_00", "bone": "shuill_00", "attachment": "shuill_00" }
+],
+"skins": {
+	"default": {
+		"shuill_00": {
+			"shuill_00": { "width": 206, "height": 242 },
+			"shuill_01": { "width": 206, "height": 242 },
+			"shuill_02": { "width": 206, "height": 242 },
+			"shuill_03": { "width": 206, "height": 242 },
+			"shuill_04": { "width": 206, "height": 242 },
+			"shuill_05": { "width": 206, "height": 242 },
+			"shuill_06": { "width": 206, "height": 242 },
+			"shuill_07": { "width": 206, "height": 242 },
+			"shuill_08": { "width": 206, "height": 242 },
+			"shuill_09": { "width": 206, "height": 242 },
+			"shuill_10": { "width": 206, "height": 242 },
+			"shuill_11": { "width": 206, "height": 242 },
+			"shuill_12": { "width": 206, "height": 242 },
+			"shuill_13": { "width": 206, "height": 242 },
+			"shuill_14": { "width": 206, "height": 242 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"shuill_00": {
+				"attachment": [
+					{ "time": 0, "name": "shuill_14" },
+					{ "time": 0.0666, "name": "shuill_13" },
+					{ "time": 0.1333, "name": "shuill_12" },
+					{ "time": 0.2, "name": "shuill_11" },
+					{ "time": 0.2666, "name": "shuill_10" },
+					{ "time": 0.3333, "name": "shuill_09" },
+					{ "time": 0.4, "name": "shuill_08" },
+					{ "time": 0.4666, "name": "shuill_07" },
+					{ "time": 0.5333, "name": "shuill_06" },
+					{ "time": 0.6, "name": "shuill_05" },
+					{ "time": 0.6666, "name": "shuill_04" },
+					{ "time": 0.7333, "name": "shuill_03" },
+					{ "time": 0.8, "name": "shuill_02" },
+					{ "time": 0.8666, "name": "shuill_01" },
+					{ "time": 0.9333, "name": "shuill_00" },
+					{ "time": 1, "name": "shuill_14" }
+				]
+			}
+		},
+		"bones": {
+			"shuill_00": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 }
+		]
+	}
+}
+}

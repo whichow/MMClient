@@ -1,0 +1,136 @@
+{
+"skeleton": { "hash": "fcmBCzCvB8tIIJxANlVsk8YT3Y0", "spine": "2.1.27", "width": 165.63, "height": 272.94, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "deng", "parent": "root", "x": 82.67, "y": -34.67 },
+	{ "name": "zhuti", "parent": "deng", "length": 128.14, "y": 29.02, "rotation": 90 },
+	{ "name": "deng2", "parent": "zhuti", "x": 189.03, "y": 13.45 }
+],
+"slots": [
+	{ "name": "44", "bone": "root" },
+	{ "name": "zhuti", "bone": "zhuti", "attachment": "zhuti" },
+	{ "name": "deng", "bone": "deng2", "attachment": "deng" },
+	{ "name": "FX_MB02_10072__idle_01_000", "bone": "deng2", "attachment": "FX_MB02_10072__idle_01_000" }
+],
+"skins": {
+	"default": {
+		"FX_MB02_10072__idle_01_000": {
+			"FX_MB02_10072__idle_01_000": { "x": 3.72, "y": 0.11, "rotation": -90, "width": 107, "height": 114 }
+		},
+		"deng": {
+			"deng": { "x": 4.77, "y": -2.52, "rotation": -90, "width": 71, "height": 70 }
+		},
+		"zhuti": {
+			"zhuti": { "x": 108.81, "y": -17.57, "rotation": -90, "width": 162, "height": 264 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"FX_MB02_10072__idle_01_000": {
+				"attachment": [
+					{ "time": 0, "name": "FX_MB02_10072__idle_01_000" },
+					{ "time": 1, "name": "FX_MB02_10072__idle_01_000" },
+					{ "time": 2, "name": "FX_MB02_10072__idle_01_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			},
+			"deng": {
+				"attachment": [
+					{ "time": 0, "name": "deng" },
+					{ "time": 1, "name": "deng" },
+					{ "time": 2, "name": "deng" }
+				]
+			},
+			"zhuti": {
+				"attachment": [
+					{ "time": 0, "name": "zhuti" },
+					{ "time": 1, "name": "zhuti" },
+					{ "time": 2, "name": "zhuti" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"zhuti": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"deng2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": 3.53, "y": 3.53 },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"deng": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 },
+			{ "time": 2 }
+		]
+	}
+}
+}

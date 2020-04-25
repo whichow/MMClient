@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1982754954132206}
+  m_IsPrefabParent: 1
+--- !u!1 &1982754954132206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224100689013978786}
+  - component: {fileID: 222158969378565748}
+  - component: {fileID: 114114465261635204}
+  m_Layer: 5
+  m_Name: BigExpressionOverView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114114465261635204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982754954132206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d574061506a414aadb5e5769eb894a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  sprites:
+  - {fileID: 21300000, guid: 7588b051a909fdc4eb7fde4166c382ed, type: 3}
+  - {fileID: 21300000, guid: b8970930f3448124b96c77ad6624176f, type: 3}
+  - {fileID: 21300000, guid: 60f8fe6904545b9498a877b7981eb70b, type: 3}
+  - {fileID: 21300000, guid: 94a5d16c735aa1340afe1aa49e3e1852, type: 3}
+  - {fileID: 21300000, guid: 50e0a23168cea3a4f8a91903865b3119, type: 3}
+  - {fileID: 21300000, guid: 2030055eec1e3de4f9baee7c68af158f, type: 3}
+  - {fileID: 21300000, guid: 12b684fa2dd2f8c49a80fd174ff45faf, type: 3}
+  - {fileID: 21300000, guid: 534510e21f261c2449412e419d9f1fe6, type: 3}
+  - {fileID: 21300000, guid: b7d046e976407214d8aaec910072cbae, type: 3}
+  - {fileID: 21300000, guid: e1e42cbb0e93d4649a23eb9544d661ee, type: 3}
+  - {fileID: 21300000, guid: 8d2cbaa6b494c0045b2740a0d30cebd1, type: 3}
+  - {fileID: 21300000, guid: 6fc7f5116c6aaa54ab4fbc9a87bbc6f0, type: 3}
+  - {fileID: 21300000, guid: c736ebf5292f6804fa15d619afbaeb3c, type: 3}
+  - {fileID: 21300000, guid: 7bef15fbf2fc35244aa6a04e6e21f0dc, type: 3}
+  - {fileID: 21300000, guid: 2c2f48a6d97b47d4aad6484f5ff6c6e9, type: 3}
+  - {fileID: 21300000, guid: e27bf0703740b784c94e7c41419880a9, type: 3}
+  - {fileID: 21300000, guid: 484e10736004592429f46b2cb6c7050f, type: 3}
+  - {fileID: 21300000, guid: 3fd4a1d6101bb7946b72be0f4efd37f1, type: 3}
+  - {fileID: 21300000, guid: a8c9299ce0162a841adad706e140cf2f, type: 3}
+  - {fileID: 21300000, guid: d3ac19e6c8e09b24081483c7e6e2b82e, type: 3}
+  - {fileID: 21300000, guid: 43c6c11e4511aba40b94f8a67895f9e9, type: 3}
+  - {fileID: 21300000, guid: 2d4a0658ecac58e4c96654dcfdf7d4dd, type: 3}
+  - {fileID: 21300000, guid: 8f096a8895cc435458225b9dfefa4e7f, type: 3}
+  usePolygon: 0
+--- !u!222 &222158969378565748
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982754954132206}
+--- !u!224 &224100689013978786
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982754954132206}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1277.8, y: 241.91199}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}

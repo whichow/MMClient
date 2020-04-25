@@ -1,0 +1,79 @@
+{
+"skeleton": { "hash": "cVnqVshXoUkgFXvKYeuCAkTG9/8", "spine": "2.1.27", "width": 600.12, "height": 330.23, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "ckbaod_00", "parent": "root", "length": 122.31, "x": -12.19, "y": 154.44, "scaleX": 2, "scaleY": 2, "rotation": 179.54 }
+],
+"slots": [
+	{ "name": "ckbaod_00", "bone": "ckbaod_00", "attachment": "ckbaod_zi_17" }
+],
+"skins": {
+	"default": {
+		"ckbaod_00": {
+			"ckbaod_zi_00": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_01": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_02": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_03": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_04": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_05": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_06": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_07": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_08": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_09": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_10": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_11": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_12": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_13": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_14": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_15": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_16": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 },
+			"ckbaod_zi_17": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -179.54, "width": 600, "height": 330 }
+		}
+	}
+},
+"animations": {
+	"start_zi": {
+		"slots": {
+			"ckbaod_00": {
+				"attachment": [
+					{ "time": 0, "name": "ckbaod_zi_00" },
+					{ "time": 0.0333, "name": "ckbaod_zi_01" },
+					{ "time": 0.0666, "name": "ckbaod_zi_02" },
+					{ "time": 0.1, "name": "ckbaod_zi_03" },
+					{ "time": 0.1333, "name": "ckbaod_zi_04" },
+					{ "time": 0.1666, "name": "ckbaod_zi_05" },
+					{ "time": 0.2, "name": "ckbaod_zi_06" },
+					{ "time": 0.2333, "name": "ckbaod_zi_07" },
+					{ "time": 0.2666, "name": "ckbaod_zi_08" },
+					{ "time": 0.3, "name": "ckbaod_zi_09" },
+					{ "time": 0.3333, "name": "ckbaod_zi_10" },
+					{ "time": 0.3666, "name": "ckbaod_zi_11" },
+					{ "time": 0.4, "name": "ckbaod_zi_12" },
+					{ "time": 0.4333, "name": "ckbaod_zi_13" },
+					{ "time": 0.4666, "name": "ckbaod_zi_14" },
+					{ "time": 0.5, "name": "ckbaod_zi_15" },
+					{ "time": 0.5333, "name": "ckbaod_zi_16" },
+					{ "time": 0.5666, "name": "ckbaod_zi_17" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ckbaod_00": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

@@ -1,0 +1,9 @@
+print("MainLua");
+
+local list = require("PatchList");
+for _, filename in ipairs(list) do 
+    require(filename);
+end
+list = nil;
+
+CS.Game.GameApp.Instance.HotFixLuaSucc = true; -- 没有报错会走到这里

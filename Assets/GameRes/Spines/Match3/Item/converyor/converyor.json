@@ -1,0 +1,144 @@
+{
+"skeleton": { "hash": "6ApAsp+RQ4fIhQwVpMyC6U9ClRg", "spine": "2.1.27", "width": 100, "height": 99, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone6", "parent": "root", "color": "eeff00ff" }
+],
+"slots": [
+	{ "name": "FX6", "bone": "bone6", "attachment": "FX2/Ani_SX_chuansong_009" },
+	{ "name": "FX5", "bone": "bone" }
+],
+"skins": {
+	"default": {
+		"FX5": {
+			"FX1/Ani_SX_chuansong_2_000": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_001": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_002": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_003": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_004": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_005": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_006": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_007": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_008": { "width": 97, "height": 91 },
+			"FX1/Ani_SX_chuansong_2_009": { "width": 97, "height": 91 }
+		},
+		"FX6": {
+			"FX2/Ani_SX_chuansong_000": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_001": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_002": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_003": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_004": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_005": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_006": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_007": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_008": { "width": 100, "height": 99 },
+			"FX2/Ani_SX_chuansong_009": { "width": 100, "height": 99 }
+		}
+	}
+},
+"animations": {
+	"idle1": {
+		"slots": {
+			"FX6": {
+				"attachment": [
+					{ "time": 0, "name": "FX2/Ani_SX_chuansong_000" }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"idle2": {
+		"slots": {
+			"FX5": {
+				"attachment": [
+					{ "time": 0, "name": "FX1/Ani_SX_chuansong_2_000" }
+				]
+			},
+			"FX6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -0.51, "y": 0 }
+				]
+			}
+		}
+	},
+	"move1": {
+		"slots": {
+			"FX6": {
+				"attachment": [
+					{ "time": 0, "name": "FX2/Ani_SX_chuansong_000" },
+					{ "time": 0.0666, "name": "FX2/Ani_SX_chuansong_001" },
+					{ "time": 0.1333, "name": "FX2/Ani_SX_chuansong_002" },
+					{ "time": 0.2, "name": "FX2/Ani_SX_chuansong_003" },
+					{ "time": 0.2666, "name": "FX2/Ani_SX_chuansong_004" },
+					{ "time": 0.3333, "name": "FX2/Ani_SX_chuansong_005" },
+					{ "time": 0.4, "name": "FX2/Ani_SX_chuansong_006" },
+					{ "time": 0.4666, "name": "FX2/Ani_SX_chuansong_007" },
+					{ "time": 0.5333, "name": "FX2/Ani_SX_chuansong_008" },
+					{ "time": 0.6, "name": "FX2/Ani_SX_chuansong_009" }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"move2": {
+		"slots": {
+			"FX5": {
+				"attachment": [
+					{ "time": 0, "name": "FX1/Ani_SX_chuansong_2_000" },
+					{ "time": 0.0666, "name": "FX1/Ani_SX_chuansong_2_001" },
+					{ "time": 0.1333, "name": "FX1/Ani_SX_chuansong_2_002" },
+					{ "time": 0.2, "name": "FX1/Ani_SX_chuansong_2_003" },
+					{ "time": 0.2666, "name": "FX1/Ani_SX_chuansong_2_004" },
+					{ "time": 0.3333, "name": "FX1/Ani_SX_chuansong_2_005" },
+					{ "time": 0.4, "name": "FX1/Ani_SX_chuansong_2_006" },
+					{ "time": 0.4666, "name": "FX1/Ani_SX_chuansong_2_007" },
+					{ "time": 0.5333, "name": "FX1/Ani_SX_chuansong_2_008" },
+					{ "time": 0.6, "name": "FX1/Ani_SX_chuansong_2_009" }
+				]
+			},
+			"FX6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -0.51, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

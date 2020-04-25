@@ -1,0 +1,81 @@
+{
+"skeleton": { "hash": "JUA/qyVcEMv1zbE2qvDnJ2Vzf70", "spine": "2.1.27", "width": 500, "height": 500, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "quan12.1", "parent": "root", "length": 106.45, "rotation": 90 },
+	{ "name": "quan12.2", "parent": "root", "length": 106.45, "rotation": 90 }
+],
+"slots": [
+	{ "name": "quan12.1", "bone": "quan12.1", "color": "a4dbffff", "attachment": "quan12.1" },
+	{ "name": "quan12.2", "bone": "quan12.2", "color": "a4dbffff", "attachment": "quan12.1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"quan12.1": {
+			"quan12.1": { "rotation": -90, "width": 500, "height": 500 }
+		},
+		"quan12.2": {
+			"quan12.1": { "rotation": -90, "width": 500, "height": 500 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"quan12.1": {
+				"attachment": [
+					{ "time": 0, "name": "quan12.1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"quan12.2": {
+				"attachment": [
+					{ "time": 0, "name": "quan12.1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"quan12.1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.4333, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"quan12.2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.4333, "x": 2.5, "y": 2.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

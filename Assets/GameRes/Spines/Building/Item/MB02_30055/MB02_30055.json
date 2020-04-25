@@ -1,0 +1,139 @@
+{
+"skeleton": { "hash": "eK9ILUcMvuQ5H8fNb7O3dmygoKQ", "spine": "2.1.27", "width": 323, "height": 334, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bip", "parent": "root", "x": 259.32, "y": 274.41 },
+	{ "name": "yun1", "parent": "bip", "length": 90.54, "x": 28.88, "y": -101.76, "rotation": 90 },
+	{ "name": "yun2", "parent": "bip", "length": 103.74, "x": -11.65, "y": 29.3, "rotation": 90 },
+	{ "name": "yy", "parent": "bip", "length": 57.55, "x": 19.45, "y": -121.57, "rotation": 90 }
+],
+"slots": [
+	{ "name": "yy", "bone": "yy", "attachment": "yy" },
+	{ "name": "yun2", "bone": "yun2", "attachment": "yun2" },
+	{ "name": "yun1", "bone": "yun1", "attachment": "yun1" }
+],
+"skins": {
+	"default": {
+		"yun1": {
+			"yun1": { "x": 48.35, "y": 0.71, "rotation": -90, "width": 181, "height": 114 }
+		},
+		"yun2": {
+			"yun2": { "x": -11.22, "y": 11.16, "rotation": -90, "width": 281, "height": 245 }
+		},
+		"yy": {
+			"yy": { "x": -5.34, "y": 12.78, "rotation": -90, "width": 306, "height": 133 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"yun1": {
+				"attachment": [
+					{ "time": 0, "name": "yun1" },
+					{ "time": 2.1333, "name": "yun1" }
+				]
+			},
+			"yun2": {
+				"attachment": [
+					{ "time": 0, "name": "yun2" },
+					{ "time": 2.1333, "name": "yun2" }
+				]
+			},
+			"yy": {
+				"attachment": [
+					{ "time": 0, "name": "yy" },
+					{ "time": 2.1333, "name": "yy" }
+				]
+			}
+		},
+		"bones": {
+			"yun1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": 4.12, "y": 0 },
+					{ "time": 2.1333, "x": 0, "y": 0 }
+				]
+			},
+			"yun2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": -2.06, "y": 0 },
+					{ "time": 2.1333, "x": 0, "y": 0 }
+				]
+			},
+			"yy": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.0666, "x": 0.95, "y": 0.95 },
+					{ "time": 2.1333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 2.1333 }
+		]
+	},
+	"touch": {
+		"slots": {
+			"yun1": {
+				"attachment": [
+					{ "time": 0, "name": "yun1" },
+					{ "time": 1.1666, "name": "yun1" }
+				]
+			},
+			"yun2": {
+				"attachment": [
+					{ "time": 0, "name": "yun2" },
+					{ "time": 0.8666, "name": "yun2" },
+					{ "time": 1.1666, "name": "yun2" }
+				]
+			},
+			"yy": {
+				"attachment": [
+					{ "time": 0, "name": "yy" },
+					{ "time": 1.1666, "name": "yy" }
+				]
+			}
+		},
+		"bones": {
+			"yun1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1666, "x": 29.99, "y": 0 },
+					{ "time": 0.3333, "x": -10, "y": 0 },
+					{ "time": 0.6, "x": 9.99, "y": 0 },
+					{ "time": 0.8666, "x": -3, "y": 0 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"yun2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1666, "x": -29.99, "y": 0 },
+					{ "time": 0.3333, "x": 10, "y": 0 },
+					{ "time": 0.6, "x": -9.99, "y": 0 },
+					{ "time": 0.8666, "x": 5, "y": 0 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"yy": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 0.943, "y": 1.169 },
+					{ "time": 0.3333, "x": 0.996, "y": 1.004 },
+					{ "time": 0.6, "x": 0.968, "y": 1.089 },
+					{ "time": 0.8666, "x": 0.95, "y": 0.95 },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.8666 },
+			{ "time": 1.1666 }
+		]
+	}
+}
+}

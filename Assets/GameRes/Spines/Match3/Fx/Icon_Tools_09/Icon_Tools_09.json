@@ -1,0 +1,108 @@
+{
+"skeleton": { "hash": "yw9oDCeRCAbhbTcX31SVFGH5EmE", "spine": "2.1.27", "width": 105, "height": 121, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Icon_Tools_09", "parent": "root", "length": 71.9, "x": 66.78, "y": -28.89, "rotation": 131.4 }
+],
+"slots": [
+	{ "name": "Icon_Tools_09", "bone": "Icon_Tools_09", "attachment": "Icon_Tools_09" }
+],
+"skins": {
+	"default": {
+		"Icon_Tools_09": {
+			"Icon_Tools_09": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -24.7, -5.31, 44.73, 73.44, 135.49, -6.58, 66.04, -85.34 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 105,
+				"height": 121
+			}
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"Icon_Tools_09": {
+				"attachment": [
+					{ "time": 0, "name": "Icon_Tools_09" }
+				]
+			}
+		},
+		"bones": {
+			"Icon_Tools_09": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"Icon_Tools_09": {
+					"Icon_Tools_09": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"touch": {
+		"slots": {
+			"Icon_Tools_09": {
+				"attachment": [
+					{ "time": 0, "name": "Icon_Tools_09" },
+					{ "time": 0.8333, "name": "Icon_Tools_09" }
+				]
+			}
+		},
+		"bones": {
+			"Icon_Tools_09": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -31.49 },
+					{ "time": 0.4, "angle": 38.04 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 21.64, "y": 27.21 },
+					{ "time": 0.4, "x": -17.45, "y": 19.93 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"Icon_Tools_09": {
+					"Icon_Tools_09": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 0.3333, "curve": "stepped" },
+						{ "time": 0.6666, "curve": "stepped" },
+						{ "time": 0.8333 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.8333 }
+		]
+	}
+}
+}

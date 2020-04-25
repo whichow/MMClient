@@ -1,0 +1,48 @@
+{
+"skeleton": { "hash": "bR5SVA/7AaVktlQwFmv7ox5grM0", "spine": "2.1.27", "width": 393, "height": 124, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_3", "parent": "root", "x": -0.54, "y": 49.23, "scaleX": 0.8, "scaleY": 0.8, "color": "f00eddff" }
+],
+"slots": [
+	{ "name": "FX_Other_68_01", "bone": "fx_3", "attachment": "FX_Other_67_00005" }
+],
+"skins": {
+	"default": {
+		"FX_Other_68_01": {
+			"FX_Other_67_00000": { "scaleX": 1.25, "scaleY": 1.25, "width": 393, "height": 124 },
+			"FX_Other_67_00001": { "scaleX": 1.25, "scaleY": 1.25, "width": 393, "height": 124 },
+			"FX_Other_67_00002": { "scaleX": 1.25, "scaleY": 1.25, "width": 393, "height": 124 },
+			"FX_Other_67_00003": { "scaleX": 1.25, "scaleY": 1.25, "width": 393, "height": 124 },
+			"FX_Other_67_00004": { "scaleX": 1.25, "scaleY": 1.25, "width": 393, "height": 124 },
+			"FX_Other_67_00005": { "scaleX": 1.25, "scaleY": 1.25, "width": 393, "height": 124 }
+		}
+	}
+},
+"animations": {
+	"FX_Other68_02": {
+		"slots": {
+			"FX_Other_68_01": {
+				"attachment": [
+					{ "time": 0, "name": "FX_Other_67_00000" },
+					{ "time": 0.0333, "name": "FX_Other_67_00001" },
+					{ "time": 0.0666, "name": "FX_Other_67_00002" },
+					{ "time": 0.1, "name": "FX_Other_67_00003" },
+					{ "time": 0.1333, "name": "FX_Other_67_00004" },
+					{ "time": 0.1666, "name": "FX_Other_67_00005" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}
