@@ -253,12 +253,15 @@ namespace Game.UI
                 GameObject.Destroy(catModel);
             }
 
-            GameObject obj = CatUtils.GetUIModel(cat.mCatXDM.ID);
-            if (obj)
+            if (cat != null)
             {
-                catModel = obj;
-                obj.gameObject.layer = _modelParent.gameObject.layer;
-                obj.transform.SetParent(_modelParent.transform, false);
+                GameObject obj = CatUtils.GetUIModel(cat.mCatXDM.ID);
+                if (obj)
+                {
+                    catModel = obj;
+                    obj.gameObject.layer = _modelParent.gameObject.layer;
+                    obj.transform.SetParent(_modelParent.transform, false);
+                }
             }
         }
 
