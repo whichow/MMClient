@@ -53,7 +53,10 @@ namespace Game.UI
                 //}
                 //KLevelManager.Instance.prepareProps = arr;
 
-                GameApp.Instance.GameServer.StageBeginRequest(levelData.ID, currentSelect.mCatInfo.Id, null);
+                if (currentSelect == null)
+                    GameApp.Instance.GameServer.StageBeginRequest(levelData.ID, 0, null);
+                else
+                    GameApp.Instance.GameServer.StageBeginRequest(levelData.ID, currentSelect.mCatInfo.Id, null);
             });
         }
 
