@@ -128,65 +128,65 @@ namespace Game
     public class ItemIDConst
     {
         /// <summary>
-        /// é‡‘å¸
+        /// ½ğ±Ò
         /// </summary>
         public const int Gold = 2;
         /// <summary>
-        /// é’»çŸ³
+        /// ×êÊ¯
         /// </summary>
         public const int Diamond = 3;
         /// <summary>
-        /// å‹æƒ…ç‚¹
+        /// ÓÑÇéµã
         /// </summary>
         public const int FriendPoint = 6;
         /// <summary>
-        /// é­…åŠ›å€¼
+        /// ÷ÈÁ¦Öµ
         /// </summary>
         public const int Charm = 7;
         /// <summary>
-        /// é­‚çŸ³
+        /// »êÊ¯
         /// </summary>
         public const int SoulStone = 9;
         /// <summary>
-        /// é­…åŠ›å¾½ç« 
+        /// ÷ÈÁ¦»ÕÕÂ
         /// </summary>
         public const int CharmBadge = 10;
         /// <summary>
-        /// åŠ é€Ÿæ¶ˆè€—è´§å¸
+        /// ¼ÓËÙÏûºÄ»õ±Ò
         /// </summary>
         public const int TimeProp = 11;
         /// <summary>
-        /// è¡ŒåŠ¨åŠ›
+        /// ĞĞ¶¯Á¦
         /// </summary>
         public const int Vigour = 14;
         /// <summary>
-        /// ä½çº§æŠ½å¡å·
+        /// µÍ¼¶³é¿¨¾í
         /// </summary>
         public const int LowCard = 201;
         /// <summary>
-        /// ä¸­çº§æŠ½å¡å·
+        /// ÖĞ¼¶³é¿¨¾í
         /// </summary>
         public const int MidCard = 202;
         /// <summary>
-        /// é«˜çº§æŠ½å¡å·
+        /// ¸ß¼¶³é¿¨¾í
         /// </summary>
         public const int HighCard = 203;
     }
 
     public class ItemTypeConst
     {
-        public const int Resource = 1;//èµ„æº
-        public const int DrawCard = 2;//æŠ½å¡å·
-        public const int RemoProp = 3;//æ¸…é™¤é“å…·
-        public const int ObstacleProp = 4;//éšœç¢ç‰©é“å…·
-        public const int OrnamentMaterial = 5;//è£…é¥°ç‰©ææ–™
-        public const int FosterCard = 6;//å¯„å…»å¡
-        public const int CatFragment = 7;//çŒ«å’ªç¢ç‰‡
-        public const int PhysicalProp = 8;//ä½“åŠ›é“å…·
-        public const int PopProp = 9;//è·³è·³é“å…·
-        public const int ThreeIntoProp = 10;//ä¸‰æ¶ˆé“å…·
-        public const int Head = 11;//å¤´åƒ
-        public const int Attire = 12;//è£…æ‰®
+        public const int Resource = 1;//×ÊÔ´
+        public const int DrawCard = 2;//³é¿¨¾í
+        public const int RemoProp = 3;//Çå³ıµÀ¾ß
+        public const int ObstacleProp = 4;//ÕÏ°­ÎïµÀ¾ß
+        public const int OrnamentMaterial = 5;//×°ÊÎÎï²ÄÁÏ
+        public const int FosterCard = 6;//¼ÄÑø¿¨
+        public const int CatFragment = 7;//Ã¨ßäËéÆ¬
+        public const int PhysicalProp = 8;//ÌåÁ¦µÀ¾ß
+        public const int PopProp = 9;//ÌøÌøµÀ¾ß
+        public const int ThreeIntoProp = 10;//ÈıÏûµÀ¾ß
+        public const int Head = 11;//Í·Ïñ
+        public const int Attire = 12;//×°°ç
     }
 
     public class ItemRarityConst
@@ -200,12 +200,12 @@ namespace Game
 
     public class ItemTagConst
     {
-        public const int AllItem = 0;//å…¨éƒ¨
-        public const int Fragment = 1;//ç¢ç‰‡
-        public const int Material = 2;//ææ–™
-        public const int Consumable = 3;//æ¶ˆè€—å“
-        public const int Head = 4;//å¤´åƒ
-        public const int Attire = 5;//è£…æ‰®
+        public const int AllItem = 0;//È«²¿
+        public const int Fragment = 1;//ËéÆ¬
+        public const int Material = 2;//²ÄÁÏ
+        public const int Consumable = 3;//ÏûºÄÆ·
+        public const int Head = 4;//Í·Ïñ
+        public const int Attire = 5;//×°°ç
     }
 
 }

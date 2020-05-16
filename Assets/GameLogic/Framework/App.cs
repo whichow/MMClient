@@ -64,7 +64,6 @@ namespace Game
         protected virtual void InitManager()
         {
             //XLuaManager.Instance.Env.DoString("CS.UnityEngine.Debug.Log('Lua hello world')");//Test
-            XLuaManager.Instance.Init();
             GameComponent.Instance.Init();
             //InitGameNet();
 

@@ -469,7 +469,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4483656253736186}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114687671573816752
 MonoBehaviour:
@@ -483,6 +483,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3816e4c80a9aa4743b9f92fbbd3740ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1103889079981018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4577336267899336}
+  m_Layer: 0
+  m_Name: Foster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577336267899336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103889079981018}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4483656253736186}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136335745540936
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +671,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4483656253736186}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114266539609225556
 MonoBehaviour:
@@ -741,6 +771,7 @@ Transform:
   - {fileID: 4511881799001176}
   - {fileID: 4577420812572506}
   - {fileID: 4182925672617098}
+  - {fileID: 4577336267899336}
   - {fileID: 4819235961008586}
   - {fileID: 4776421752550778}
   - {fileID: 4260551566108402}
@@ -1275,7 +1306,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4483656253736186}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114627276126195234
 MonoBehaviour:
@@ -1289,7 +1320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a941b82fb64f8448df1cd33ae5083b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  closeGuide: 0
+  closeGuide: 1
   status: 0
   isBreak: 0
   guideID: 0

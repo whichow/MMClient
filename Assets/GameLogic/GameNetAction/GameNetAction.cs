@@ -247,7 +247,7 @@ namespace Game
             if (m_guideDM.GuideID == 0 && PlayerDataModel.Instance.mPlayerData.mLevel == 1)
                 m_guideDM.GuideID = 1;
 
-            GuideManager.Instance.SetGuideData(m_guideDM);
+            //GuideManager.Instance.SetGuideData(m_guideDM);
         }
 
         public void GuideDataSaveRequest(int guideID, int stepID)

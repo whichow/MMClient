@@ -8,7 +8,6 @@
  * Update History:  
  * 
  *******************************************************************************/
-using CSObjectWrapEditor;
 using K.AB;
 using System;
 using System.IO;
@@ -141,7 +140,6 @@ namespace Game
                 EditorUtility.ClearProgressBar();
                 return;
             }
-            Generator.GenAll();
         }
 
         private static float t = 0;

@@ -127,9 +127,9 @@ namespace Game.UI
         private void SendBuyHightCat()
         {
             Debuger.Log("发送抽取高级猫");
-            bool blEnough = PlayerDataModel.Instance.mPlayerData.mDiamond >=
-                            XTable.ItemXTable.GetByID(ItemIDConst.MidCard).Cost;
-            if (blEnough)//BagDataModel.Instance.GetItemCountById(ItemIDConst.Diamond) > 0)
+            bool enough = PlayerDataModel.Instance.mPlayerData.mDiamond >=
+                          XTable.ItemXTable.GetByID(ItemIDConst.MidCard).Cost;
+            if (enough)
             {
                 OpenWindow<PhotoShopPickCardHighWindow>(new PhtotShopPickCardWindowData(2));
             }

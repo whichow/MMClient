@@ -263,6 +263,7 @@ namespace Game.UI
                     obj.transform.SetParent(_modelParent.transform, false);
                 }
             }
+            
         }
 
         public void PlayEnergyFlyAnimation(Action action)

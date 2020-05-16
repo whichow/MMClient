@@ -28,10 +28,10 @@ namespace Game.Build
         private void OnEnable()
         {
             KUIWindow.OpenWindow<MainWindow>();
-            if (GuideManager.Instance.status != GuideManager.EGuideStatus.Completed)
-            {
-                KUIWindow.OpenWindow<GuideWindow>();
-            }
+            // if (GuideManager.Instance.status != GuideManager.EGuideStatus.Completed)
+            // {
+            //     KUIWindow.OpenWindow<GuideWindow>();
+            // }
             AudioClip clip;
             if (KAssetManager.Instance.TryGetSoundAsset("Music/music_worldscene", out clip))
             {

@@ -92,7 +92,7 @@ namespace Game.UI
             return strlen;
         }
 
-        private void OnChangeNameHandler()//(IEventData args)
+        private void OnChangeNameHandler()
         {
             GuideManager.Instance.CompleteStep();
             isHaveName = true;
