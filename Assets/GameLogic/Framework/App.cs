@@ -45,7 +45,7 @@ namespace Game
 
         protected virtual void Stop()
         {
-
+ 
         }
 
         protected virtual void Update()
