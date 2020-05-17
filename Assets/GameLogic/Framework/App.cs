@@ -31,6 +31,7 @@ namespace Game
             GameNetMgr.Instance.Init(0);
             LoginServer = GameNetMgr.Instance.mLoginServer;
             GameServer = GameNetMgr.Instance.mGameServer;
+            
         }
 
         protected virtual void Awake()
