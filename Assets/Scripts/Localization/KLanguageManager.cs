@@ -143,7 +143,7 @@ namespace Game
         }
 
         /// <summary>
-        /// 默认词条Id
+        /// 榛樿璇嶆潯Id
         /// </summary>
         /// <param name="entry"></param>
         /// <returns></returns>
@@ -159,7 +159,7 @@ namespace Game
         }
 
         /// <summary>
-        /// 本地语言
+        /// 鏈湴璇█
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -175,7 +175,7 @@ namespace Game
         }
 
         /// <summary>
-        /// 用默认语言翻译本地语言
+        /// 鐢ㄩ粯璁よ瑷�缈昏瘧鏈湴璇█
         /// </summary>
         /// <param name="entry"></param>
         /// <returns></returns>
